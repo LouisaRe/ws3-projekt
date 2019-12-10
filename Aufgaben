@@ -1,11 +1,15 @@
-Fill in Text
-Fill in Pictures
-Header
-Footer
-Startbildschirm
-Anwendungsgebiete
-Alleinstellungsmerkmale
-Vorteile
-Technische Angaben
-Aktuelles
-Kontakt
+- Bitte pro Feature einen Branch vom Develop Branch machen
+- Falls man von einem Feature Branch in den Develop Branch mergen möchte, bitte jemanden von der Gruppe einen Pullrequest erstellen
+Bis am 2.Januar alles fertig
+Features:
+
+- Header @Dominique
+- Footer @Lousia
+- Start @Lousia
+- Anwendungsgebiete @Anastasia
+- Alleinstellungsmerkmale @Lousia
+- Vorteile @Dominique
+- Technische Angaben @Anastasia
+- Aktuelles @Anastasia
+- Kontakt @Lousia
+(- Google Analytics: IP-Adresse der Besucher und Anzahl Besucher @Anastasia)
