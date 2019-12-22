@@ -16,13 +16,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <style>
+        .fontSizeStandartTitle{
+            font-size: 2rem;
+        }
         .box{
             padding: 0.5rem;
             margin-top: 1rem;
-            margin-bottom: 0.5rem;
-            font-size: 2rem;
+            margin-bottom: 1rem;
         }
-
         .borderBox{
             border-style: solid;
             padding: 0.5rem;;
@@ -32,6 +33,28 @@
         .kontaktBox{
             padding: 2rem;
         }
+        .contactSpace{
+            padding: 2px;
+        }
+        .size-100{
+            height: 100px !important;
+        }
+/*-----------------CSS von material-icons---------------*/
+        /* Rules for sizing the icon. */
+        .material-icons.md-18 { font-size: 18px; }
+        .material-icons.md-24 { font-size: 24px; }
+        .material-icons.md-36 { font-size: 36px; }
+        .material-icons.md-48 { font-size: 48px; }
+        .material-icons.md-56 { font-size: 56px; }
+
+        /* Rules for using icons as black on a light background. */
+        .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+        .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+        /* Rules for using icons as white on a dark background. */
+        .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+        .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+/*-------------------------------------------------------*/
     </style>
 
 </head>
@@ -50,36 +73,44 @@
     </div>
 
 <!--Anwendungsgebiete-->
-    <div class="container indigo lighten-2 indigo-text text-lighten-5 box center-align">
+    <div class="container indigo lighten-2 indigo-text text-lighten-5 box fontSizeStandartTitle center-align">
         <span>Anwendungsgebiete</span>
     </div>
 
 <!--Alleinstellungsmerkmale-->
-    <div class="container indigo lighten-2 indigo-text text-lighten-5 box center-align">
-        <span>Alleinstellungsmerkmale</span>
-    </div>
-    <div class="container">
-        <div class="indigo lighten-5 borderBox">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+<div class="container col s12 m7">
+    <div class="card horizontal">
+        <div class="card-image valign-wrapper indigo lighten-5">
+            <div class="box fontSizeStandartTitle">
+                <i class="material-icons md-56 amber-text">star_border</i>
+            </div>
+        </div>
+        <div class="card-stacked">
+            <div class="card-content">
+                <span class="fontSizeStandartTitle">Alleinstellungsmerkmale</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="card-action">
+                <a href="#">Hier finden Sie alle Vorteile im Überblick</a>
+            </div>
         </div>
     </div>
+</div>
 
 <!--Vorteile-->
-    <div class="container indigo lighten-2 indigo-text text-lighten-5 box center-align">
+    <div class="container indigo lighten-2 indigo-text text-lighten-5 box fontSizeStandartTitle center-align">
         <span>Vorteile</span>
     </div>
 
 
 <!--Technische Angaben-->
-    <div class="container indigo lighten-2 indigo-text text-lighten-5 box center-align">
+    <div class="container indigo lighten-2 indigo-text text-lighten-5 box fontSizeStandartTitle center-align">
         <span>Technische Angaben</span>
     </div>
 
 <!--Aktuelles-->
-    <div class="container amber lighten-1 amber-text text-lighten-5 box center-align">
+    <div class="container amber lighten-1 amber-text text-lighten-5 box fontSizeStandartTitle center-align">
         <span>Aktuelles</span>
     </div>
 
@@ -88,7 +119,7 @@
         <div class="container kontaktBox center-align">
             <p>Haben Sie weitere Fragen zum Produkt?</p>
 
-            <a href = "mailto: abc@example.com" class="btn">
+            <a href = "mailto: abc@example.com" class="btn amber waves-effect waves-light">
                 <span>Email</span>
                 <i class="material-icons right">send</i>
             </a>
@@ -97,7 +128,44 @@
     </div>
 
 <!--Footer-->
+<footer class="page-footer indigo lighten-2">
+    <div class="row container">
+        <!--Spalte 1-->
+        <div class="col s4">
+            <!--Phone-->
+            <div class="left-align contactSpace">
+                <i class="material-icons left">phone</i>
+                <span>+ 49 (0) 7621 169976</span>
+            </div>
+            <!--Email-->
+            <div class="left-align contactSpace">
+                <i class="material-icons left">mail</i>
+                <span>info@pulsmin.com</span>
+            </div>
+        </div>
+        <!--Spalte 2-->
+        <div class="col s4">
+            <div>
+                <i class="material-icons left">room</i>
+                <div class="left-align">
+                    <span>pulsmin GmbH<br>Hans Luette<br>Seelhofstraße 24<br>D- 79539 Lörrach</span>
+                </div>
+            </div>
 
+        </div>
+        <!--Spalte 3-->
+        <div class="col s4">
+            <img src="img/Hans_Luette.jpg" alt="" class="circle responsive-img size-100">
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container center-align">
+            Made by <span class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Louisa Reinger</span>
+        </div>
+    </div>
+
+</footer>
 
 </body>
 </html>
