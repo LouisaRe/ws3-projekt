@@ -24,12 +24,6 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
         }
-        .borderBox{
-            border-style: solid;
-            padding: 0.5rem;;
-            border-color: #7986cb;
-        }
-
         .kontaktBox{
             padding: 2rem;
         }
@@ -38,6 +32,15 @@
         }
         .size-100{
             height: 100px !important;
+        }
+        .footerItem{
+            margin-bottom: 24px;
+        }
+        .ic{
+            margin-right: 15px;
+        }
+        h1{
+            font-size: 3rem;
         }
 /*-----------------CSS von material-icons---------------*/
         /* Rules for sizing the icon. */
@@ -129,33 +132,48 @@
 
 <!--Footer-->
 <footer class="page-footer indigo lighten-2">
-    <div class="row container">
-        <!--Spalte 1-->
-        <div class="col s4">
-            <!--Phone-->
-            <div class="left-align contactSpace">
-                <i class="material-icons left">phone</i>
-                <span>+ 49 (0) 7621 169976</span>
-            </div>
-            <!--Email-->
-            <div class="left-align contactSpace">
-                <i class="material-icons left">mail</i>
-                <span>info@pulsmin.com</span>
-            </div>
-        </div>
-        <!--Spalte 2-->
-        <div class="col s4">
-            <div>
-                <i class="material-icons left">room</i>
-                <div class="left-align">
-                    <span>pulsmin GmbH<br>Hans Luette<br>Seelhofstraße 24<br>D- 79539 Lörrach</span>
+    <div class="fontSizeStandartTitle center-align footerItem">
+        <span>Get In Touch</span>
+    </div>
+    <div class="valign-wrapper">
+        <div class="row container">
+
+            <!--Spalte 1-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <div class="footerItem">
+                    <i class="material-icons ic">room</i>
+                    <div class="center-align contactSpace">
+                        <span>pulsmin GmbH<br>Hans Luette<br>Seelhofstraße 24<br>D- 79539 Lörrach</span>
+                    </div>
                 </div>
             </div>
 
-        </div>
-        <!--Spalte 3-->
-        <div class="col s4">
-            <img src="img/Hans_Luette.jpg" alt="" class="circle responsive-img size-100">
+            <!--Spalte 2-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <!--Phone-->
+                <div class="footerItem">
+                    <i class="material-icons ic">phone</i>
+                    <div class="center-align contactSpace">
+                        + 49 (0) 7621 169976
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 3-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <!--Email-->
+                <div class="footerItem">
+                    <i class="material-icons ic">mail</i>
+                    <div class="center-align contactSpace ic">
+                        info@pulsmin.com
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 4-->
+            <div class="col l3 m12 s12 center-align">
+                <img src="img/Hans_Luette.jpg" alt="Hans Lütte" class="circle responsive-img size-100 z-depth-5">
+            </div>
         </div>
     </div>
 
