@@ -36,12 +36,52 @@
         .footerItem{
             margin-bottom: 24px;
         }
-        .ic{
-            margin-right: 15px;
-        }
         h1{
             font-size: 3rem;
         }
+
+/*--------------------Grössenanpassungen-----------------------*/
+
+/*SMALL*/
+        @media only screen and (max-width : 600px) {
+            .fontSizeStandartTitle{
+                font-size: 1.5rem;
+            }
+            h1{
+                font-size: 2rem;
+            }
+        }
+/*--------------------------------------------------------------*/
+
+
+
+/*--------------------------Farben--------------------------*/
+        .blue1{
+            background-color: #296692;
+        }
+        .blue1-text{
+            color: #296692;
+        }
+        .blue1.dark{
+            background-color: #23577d !important;
+        }
+        .blue1-text.text-dark{
+            color: #23577d !important;
+        }
+        .blue1-text.text-light{
+            color: #e1ebf2 !important;
+        }
+        .blue1.light{
+            background-color: #e1ebf2 !important;
+        }
+        .blue1-text.text-light2{
+            color: #edf5fa !important;
+        }
+        .blue1.light2{
+            background-color: #edf5fa !important;
+        }
+/*-----------------------------------------------------------*/
+
 /*-----------------CSS von material-icons---------------*/
         /* Rules for sizing the icon. */
         .material-icons.md-18 { font-size: 18px; }
@@ -71,19 +111,19 @@
     <div class="container">
         <div class="center-align">
             <img src="img/Bild1.png" alt="Kompressor" class="responsive-img">
-            <h1 class="center-align indigo-text">Wir reden nicht von Umweltschutz, wir machen Umweltschutz!</h1>
+            <h1 class="center-align blue1-text">Wir reden nicht von Umweltschutz, wir machen Umweltschutz!</h1>
         </div>
     </div>
 
 <!--Anwendungsgebiete-->
-    <div class="container indigo lighten-2 indigo-text text-lighten-5 box fontSizeStandartTitle center-align">
+    <div class="container blue1 blue1-text text-light2 box fontSizeStandartTitle center-align">
         <span>Anwendungsgebiete</span>
     </div>
 
 <!--Alleinstellungsmerkmale-->
 <div class="container col s12 m7">
     <div class="card horizontal">
-        <div class="card-image valign-wrapper indigo lighten-5">
+        <div class="card-image valign-wrapper blue1 light">
             <div class="box fontSizeStandartTitle">
                 <i class="material-icons md-56 amber-text">star_border</i>
             </div>
@@ -102,13 +142,13 @@
 </div>
 
 <!--Vorteile-->
-    <div class="container indigo lighten-2 indigo-text text-lighten-5 box fontSizeStandartTitle center-align">
+    <div class="container blue1 blue1-text text-light2 box fontSizeStandartTitle center-align">
         <span>Vorteile</span>
     </div>
 
 
 <!--Technische Angaben-->
-    <div class="container indigo lighten-2 indigo-text text-lighten-5 box fontSizeStandartTitle center-align">
+    <div class="container blue1 blue1-text text-light2 box fontSizeStandartTitle center-align">
         <span>Technische Angaben</span>
     </div>
 
@@ -118,7 +158,7 @@
     </div>
 
 <!--Kontakt-->
-    <div class="indigo lighten-5">
+    <div class="blue1 light2">
         <div class="container kontaktBox center-align">
             <p>Haben Sie weitere Fragen zum Produkt?</p>
 
@@ -131,7 +171,7 @@
     </div>
 
 <!--Footer-->
-<footer class="page-footer indigo lighten-2 indigo-text text-lighten-5">
+<footer class="page-footer blue1 blue1-text text-light2">
     <div class="fontSizeStandartTitle center-align footerItem">
         <span>Get In Touch</span>
     </div>
@@ -141,7 +181,7 @@
             <!--Spalte 1-->
             <div class="col l3 m4 s12 footerItem center-align">
                 <div class="footerItem">
-                    <i class="material-icons ic">room</i>
+                    <i class="material-icons">room</i>
                     <div class="center-align contactSpace">
                         <span>pulsmin GmbH<br>Hans Luette<br>Seelhofstraße 24<br>D- 79539 Lörrach</span>
                     </div>
@@ -152,7 +192,7 @@
             <div class="col l3 m4 s12 footerItem center-align">
                 <!--Phone-->
                 <div class="footerItem">
-                    <i class="material-icons ic">phone</i>
+                    <i class="material-icons">phone</i>
                     <div class="center-align contactSpace">
                         + 49 (0) 7621 169976
                     </div>
@@ -163,8 +203,8 @@
             <div class="col l3 m4 s12 footerItem center-align">
                 <!--Email-->
                 <div class="footerItem">
-                    <i class="material-icons ic">mail</i>
-                    <div class="center-align contactSpace ic">
+                    <i class="material-icons">mail</i>
+                    <div class="center-align contactSpace">
                         info@pulsmin.com
                     </div>
                 </div>
