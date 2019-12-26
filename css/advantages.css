@@ -14,5 +14,16 @@
 }
 
 .iconimg {
-    width: 100px;
+    max-width: 100px;
+    height:auto;
+}
+
+.resizeableimg {
+    max-width:100%;
+    height:auto;
+    margin-top: 10px;
+}
+
+#vorteile_header {
+    background:white;
 }
