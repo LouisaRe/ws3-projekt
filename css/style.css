@@ -7,16 +7,49 @@
  */
 
 nav ul a,
-nav .brand-logo {
-  color: #444;
+nav {
+  color: white !important;
+}
+.nav-wrapper{
+  position:absolute !important;
+}
+
+.logo{
+  font-weight: bold !important;
+  font-size: 30px !important;
+  background: #296692 !important;
+}
+
+.brand-logo {
+  font-weight: bold !important;
+  font-size: 30px !important;
+  background: #296692 !important;
+}
+
+nav a,
+nav a:visited {
+  background: #296692;
+  color: white;
+}
+nav a:not(.selected):hover {
+  background: #245070;
+  color: white;
+}
+
+#backgroundnav, #backgroundmenu{
+  background: #296692;
+}
+
+.sidenav-overlay {
+  background-color: white !important;
 }
 
 p {
   line-height: 2rem;
 }
 
-.sidenav-trigger {
-  color: #26a69a;
+.sidenav {
+  background-color: #296692 !important;
 }
 
 .parallax-container {
