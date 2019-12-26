@@ -7,23 +7,56 @@
     border-radius: 50px;
     margin: 0 auto;
 }
+
 .titlerec {
     background: #296692;
-    color:white;
+    color: white;
     padding: 10px;
 }
 
 .iconimg {
     max-width: 100px;
-    height:auto;
+    height: auto;
 }
 
 .resizeableimg {
-    max-width:100%;
-    height:auto;
+    max-width: 100%;
+    height: auto;
     margin-top: 10px;
 }
 
 #vorteile_header {
-    background:white;
+    background: white;
+}
+
+.showhidetitle {
+    background: #296692;
+    color: white;
+    padding: 10px;
+}
+
+.showhide {
+    display: none;
+}
+
+.vorteile {
+    margin-left: 10px;
+    width: 95%;
+}
+
+.icon {
+    float: right;
+    margin-top: -65px;
+    margin-right: 2px;
+    max-width: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+    #vorteile_icons {
+        display: none;
+    }
+
+    .showhide {
+        display: block;
+    }
 }

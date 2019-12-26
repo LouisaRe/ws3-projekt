@@ -14,7 +14,8 @@
     <!-- JAVASCRIPT -->
     <script type="text/javascript" src="js/advantages.js"></script>
 </head>
-<body>
+<body onresize="showAndhideContent(['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['plus_icon1', 'plus_icon2', 'plus_icon3', 'plus_icon4', 'plus_icon5', 'plus_icon6'])"
+      onload="showAndhideContent(['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], [])">
 <div>
     <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -69,6 +70,7 @@
 </div>
 <div id="vorteile_container">
     <div id="vorteile_header">
+
         <div class="container">
             <div class="section">
                 <div class="row">
@@ -80,28 +82,34 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="section">
-                <div class="row">
-                    <div class="col s2">
-                        <div class="circle" id="umweltschutz_icon"><img src="advantages_images/icon_umweltschutz.png" class="iconimg"></div>
-                    </div>
-                    <div class="col s2">
-                        <div class="circle" id="vorteile_icon2"><img src="advantages_images/icon_vorteil2.png" class="iconimg"></div>
-                    </div>
-                    <div class="col s2">
-                        <div class="circle" id="vorteile_icon3"></div>
-                    </div>
-                    <div class="col s2">
-                        <div class="circle" id="vorteile_icon4"></div>
-                    </div>
-                    <div class="col s2">
-                        <div class="circle" id="vorteile_icon5"></div>
-                    </div>
-                    <div class="col s2">
-                        <div class="circle" id="vorteile_icon6"></div>
-                    </div>
+        <div id="vorteile_icons">
+            <div class="container">
+                <div class="section">
+                    <div class="row">
+                        <div class="col s2">
+                            <div class="circle" id="umweltschutz_icon">
+                                <img src="advantages_images/icon_umweltschutz.png" class="iconimg">
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon2"><img src="advantages_images/icon_vorteil2.png"
+                                                                         class="iconimg">
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon3"></div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon4"></div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon5"></div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon6"></div>
+                        </div>
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,9 +117,20 @@
     <div id="vorteile_text">
         <div class="container">
             <div class="section">
-                <div id="umweltschutz">
+                <div class="showhide">
                     <div class="row">
-                        <h4>Vorteil 1</h4>
+                        <div class="col s12">
+                            <div onclick='showfunction("umweltschutz", "plus_icon1", "minus_icon1")'>
+                                <h4 class="showhidetitle">Umweltschutz</h4>
+                                <img class="icon" id="plus_icon1" src="advantages_images/plus.png">
+                                <img class="icon" id="minus_icon1" src="advantages_images/minus.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="umweltschutz" class="vorteile">
+                    <div class="row">
+                        <h4>Umweltschutz</h4>
                         <div class="col s12 l3">
                             <img class="resizeableimg" src="advantages_images/umweltschutz_berge.png">
                         </div>
@@ -120,10 +139,13 @@
                         </div>
                         <div class="col s12 l6">
                             <p>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                                et
                                 accusam
-                                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est
                                 Lorem ipsum dolor sit amet. Lorem ipsum.
                             </p>
                         </div>
@@ -134,10 +156,13 @@
                         </div>
                         <div class="col s12 l6">
                             <p>
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                                et
                                 accusam
-                                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est
                                 Lorem ipsum dolor sit amet. Lorem ipsum.
                             </p>
                         </div>
@@ -146,137 +171,267 @@
                         </div>
                     </div>
                 </div>
-                <div id="vorteil2">
+                <div class="showhide">
+                    <div class="row">
+                        <div class="col s12">
+                            <div onclick='showfunction("vorteil2", "plus_icon2", "minus_icon2")'>
+                                <h4 class="showhidetitle">Vorteil 2</h4>
+                                <img class="icon" id="plus_icon2" src="advantages_images/plus.png">
+                                <img class="icon" id="minus_icon2" src="advantages_images/minus.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="vorteil2" class="vorteile">
                     <div class="row">
                         <h4>Vorteil 2</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
                         </p>
                     </div>
                 </div>
-                <div id="vorteil3">
+                <div class="showhide">
+                    <div class="row">
+                        <div class="col s12">
+                            <div onclick='showfunction("vorteil3", "plus_icon3", "minus_icon3")'>
+                                <h4 class="showhidetitle">Vorteil 3</h4>
+                                <img class="icon" id="plus_icon3" src="advantages_images/plus.png">
+                                <img class="icon" id="minus_icon3" src="advantages_images/minus.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="vorteil3" class="vorteile">
                     <div class="row">
                         <h4>Vorteil 3</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
                         </p>
                     </div>
                 </div>
-                <div id="vorteil4">
+                <div class="showhide">
+                    <div class="row">
+                        <div class="col s12">
+                            <div onclick='showfunction("vorteil4", "plus_icon4", "minus_icon4")'>
+                                <h4 class="showhidetitle">Vorteil 4</h4>
+                                <img class="icon" id="plus_icon4" src="advantages_images/plus.png">
+                                <img class="icon" id="minus_icon4" src="advantages_images/minus.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="vorteil4" class="vorteile">
                     <div class="row">
                         <h4>Vorteil 4</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
                         </p>
                     </div>
                 </div>
-                <div id="vorteil5">
+                <div class="showhide">
+                    <div class="row">
+                        <div class="col s12">
+                            <div onclick='showfunction("vorteil5", "plus_icon5", "minus_icon5")'>
+                                <h4 class="showhidetitle">Vorteil 5</h4>
+                                <img class="icon" id="plus_icon5" src="advantages_images/plus.png">
+                                <img class="icon" id="minus_icon5" src="advantages_images/minus.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="vorteil5" class="vorteile">
                     <div class="row">
                         <h4>Vorteil 5</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
                         </p>
                     </div>
                 </div>
-                <div id="vorteil6">
+                <div class="showhide">
+                    <div class="row">
+                        <div class="col s12">
+                            <div onclick='showfunction("vorteil6", "plus_icon6", "minus_icon6")'>
+                                <h4 class="showhidetitle">Vorteil 6</h4>
+                                <img class="icon" id="plus_icon6" src="advantages_images/plus.png">
+                                <img class="icon" id="minus_icon6" src="advantages_images/minus.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="vorteil6" class="vorteile">
                     <div class="row">
                         <h4>Vorteil 6</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est
                             Lorem ipsum dolor sit amet. Lorem ipsum.
                         </p>
                     </div>
@@ -284,7 +439,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <div id="vorteile_container_end"></div>
 <div>
@@ -338,6 +492,8 @@
         et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
         Lorem ipsum dolor sit amet. Lorem ipsum.
     </p>
+</div>
+</div>
 </div>
 </body>
 </html>
