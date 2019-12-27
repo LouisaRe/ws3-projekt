@@ -32,23 +32,23 @@
         <ul class="right hide-on-med-and-down">
             <li><a class="logo" href="#">pulsmin</a></li>
             <li><a href="#">Start</a></li>
-            <li><a href="#">Anwendungsgebiete</a></li>
-            <li><a href="#">Alleinstellungsmerkmale</a></li>
-            <li><a href="#">Vorteile</a></li>
-            <li><a href="#">Technische Angaben</a></li>
+            <li><a href="#anwendungsgebietediv">Anwendungsgebiete</a></li>
+            <li><a href="#alleinstellungsmerkmalediv">Alleinstellungsmerkmale</a></li>
+            <li><a href="#vorteile_container">Vorteile</a></li>
+            <li><a href="#technischeangabendiv">Technische Angaben</a></li>
             <li><a href="#">Aktuelles</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="#kontaktdiv">Kontakt</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
-            <li><a class="logo" href="#">pulsmin</a></li>
-            <li><a href="#">Start</a></li>
-            <li><a href="#">Anwendungsgebiete</a></li>
-            <li><a href="#">Alleinstellungsmerkmale</a></li>
-            <li><a href="#">Vorteile</a></li>
-            <li><a href="#">Technische Angaben</a></li>
-            <li><a href="#">Aktuelles</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a class="logo" href="#" onclick="location.reload()">pulsmin</a></li>
+            <li><a href="#" onclick="location.reload()">Start</a></li>
+            <li><a href="#anwendungsgebietediv" onclick="location.reload()">Anwendungsgebiete</a></li>
+            <li><a href="#alleinstellungsmerkmalediv" onclick="location.reload()">Alleinstellungsmerkmale</a></li>
+            <li><a href="#vorteile_container" onclick="location.reload()">Vorteile</a></li>
+            <li><a href="#technischeangabendiv" onclick="location.reload()">Technische Angaben</a></li>
+            <li><a href="#" onclick="location.reload()">Aktuelles</a></li>
+            <li><a href="#kontaktdiv" onclick="location.reload()">Kontakt</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"
                                                                         id="backgroundmenu">menu</i></a>
@@ -65,12 +65,12 @@
 </div>
 
 <!--Anwendungsgebiete-->
-<div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+<div id="anwendungsgebietediv" class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
     <span>Anwendungsgebiete</span>
 </div>
 
 <!--Alleinstellungsmerkmale-->
-<div class="container col s12 m7 visible_m_l_xl">
+<div id="alleinstellungsmerkmalediv" class="container col s12 m7 visible_m_l_xl">
     <div class="card horizontal">
         <div class="card-image valign-wrapper blue1 light">
             <div class="cardBox">
@@ -459,7 +459,7 @@
 <div id="vorteile_container_end"></div>
 
 <!--Technische Angaben-->
-<div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+<div id="technischeangabendiv" class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
     <span>Technische Angaben</span>
 </div>
 
@@ -469,7 +469,7 @@
 </div>
 
 <!--Kontakt-->
-<div class="blue1 light2">
+<div id="kontaktdiv" class="blue1 light2">
     <div class="container kontaktBox center-align">
         <p>Haben Sie weitere Fragen zum Produkt?</p>
 
@@ -538,9 +538,11 @@
 
 </footer>
 <!--  Scripts-->
+<script type="text/javascript" src="js/advantages.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
-<script type="text/javascript" src="js/advantages.js"></script>
+
 </body>
 </html>
