@@ -1,0 +1,105 @@
+#Materialize
+
+##Klassen (class=" ") - Funktionen
+#####container
+Alles in zentraler Spalte (margin links und rechts), responsiv
+#####flow-text
+Sich anpassende Textgrösse: Je grösser das Fenster, je grösser die Textgrösse
+
+#####truncate (Text kürzen)
+Kürzt Text auf eine Zeile (danach: ...), (responsiv)
+
+#####hide
+class | Funktion
+------------ | -------------
+hide | Wird auf allen Bildschirmgrössen NICHT angezeigt.
+hide-on-small-only | Wird nur auf small screen sizes NICHT angezeigt, auf allen anderen schon.
+hide-on-med-only | Wird nur auf medium screen sizes NICHT angezeigt, auf allen anderen schon.
+hide-on-large-only | Wird nur auf medium screen sizes NICHT angezeigt, auf allen anderen schon.
+hide-on-med-and-down | Wird auf medium screen sizes und allen kleineren NICHT angezeigt, auf allen anderen schon.
+hide-on-med-and-up | Wird auf medium screen sizes und allen grösseren NICHT angezeigt, auf allen anderen schon.
+
+
+
+###Farben
+hier findet man die color-Paletten: https://materializecss.com/color.html 
+
+class | Funktion | Beispiel
+------------ | ------------- | -----------
+[Farb-Name] | Hintergrundfarbe des Elements färben | class="orange lighten-4"
+[Farb-Name]-text | Textfarbe des Elements färben | class="orange-text text-lighten-4"
+
+
+
+
+###Alignments (Elemente ausrichten)
+
+#####align (Horizontales Ausrichten)
+
+class | Funktion
+------------ | ------------- 
+center-align | Element zentrieren 
+left-align | Element links positionieren 
+right-align | Element rechts positionieren 
+
+#####valign (Vertikales Ausrichten)
+
+Im äusseren Element (in dem die Elemente ausgerichtet werden sollen):
+class="**valign-wrapper**"  > die Elemente darin werden mittig ausgerichtet
+
+###Buttons
+
+*< a href="#" class="">Button Text</ a>*
+
+class | Funktion
+------------ | ------------- 
+btn | normaler Button
+btn-small | kleiner Button 
+btn-large | grosser Button
+btn [Farb-Name] | Farbe des Button ändern
+btn waves-effect waves-light| Waves-Animation beim Klicken
+btn disabled| disabled Button (grau)
+btn-floating| runder Button (z.B. mit Icon)
+btn-floating pulse| Button pulsieren lassen beim Hovern
+
+###Icons benutzen
+
+Folgendes in den < Head> einbinden:
+
+< link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+Die Icon-Library: https://material.io/resources/icons/?style=baseline
+
+Die **Key-Word**s, die bei den Icons stehen in den < i > -Tags verwenden.
+
+#####Icon
+
+*< **i** class="**material-icons** [Farb-Name]-text"> **key-word** </ **i**>*
+
+#####Icon auf Button
+
+
+<a href="#" class = btn">
+
+    < span> Button-Text < span>
+    
+    <i class=material-icons [ Ausrichtung (left/right/..) ]> key-word </i>
+</ a>
+
+###Grid
+
+Eine Reihe hat insgesamt 12 Spalten.
+
+< div class="row">
+
+      < div class="col s12">This div is 12-columns wide on all screen sizes</div>
+      < div class="col s6">6-columns (one-half)</div>
+      < div class="col s6">6-columns (one-half)</div>
+    </ div>
+
+###Paralax
+
+###Responsive 
+
+class = responsive-img
+

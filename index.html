@@ -3,181 +3,196 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Parallax Template - Materialize</title>
+    <!--    TODO change title and mini icon-->
+    <title>Title</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-</head>
-<body>
-<nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">Logo</a>
+  </head>
+  <body>
+  <!--Header-->
+<nav id="backgroundnav" role="navigation">
+    <a id="logo-container" href="#" class="brand-logo">pulsmin</a>
+    <div class="nav-wrapper">
+
         <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
-            <li><a href="advantages.html">Vorteile</a></li>
+            <li><a class="logo" href="#">pulsmin</a></li>
+            <li><a href="#">Start</a></li>
+            <li><a href="#">Anwendungsgebiete</a></li>
+            <li><a href="#">Alleinstellungsmerkmale</a></li>
+            <li><a href="#">Vorteile</a></li>
+            <li><a href="#">Technische Angaben</a></li>
+            <li><a href="#">Aktuelles</a></li>
+            <li><a href="#">Kontakt</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
-            <li><a href="#">Navbar Link</a></li>
-            <li><a href="advantages.html">Vorteile</a></li>
+            <li><a class="logo" href="#">pulsmin</a></li>
+            <li><a href="#">Start</a></li>
+            <li><a href="#">Anwendungsgebiete</a></li>
+            <li><a href="#">Alleinstellungsmerkmale</a></li>
+            <li><a href="#">Vorteile</a></li>
+            <li><a href="#">Technische Angaben</a></li>
+            <li><a href="#">Aktuelles</a></li>
+            <li><a href="#">Kontakt</a></li>
         </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"  id="backgroundmenu">menu</i></a>
     </div>
 </nav>
+<!--TODO: Der komplette Body muss noch mit den richtigen Bildern und Texten gefüllt werden!-->
 
-<div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <br><br>
-            <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-            <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-            </div>
-            <div class="row center">
-                <a href="http://materializecss.com/getting-started.html" id="download-button"
-                   class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-            </div>
-            <br><br>
-
-        </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-</div>
-
-
-<div class="container">
-    <div class="section">
-
-        <!--   Icon Section   -->
-        <div class="row">
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-                    <h5 class="center">Speeds up development</h5>
-
-                    <p class="light">We did most of the heavy lifting for you to provide a default stylings that
-                        incorporate our custom components. Additionally, we refined animations and transitions to
-                        provide a smoother experience for developers.</p>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-                    <h5 class="center">User Experience Focused</h5>
-
-                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a
-                        framework that incorporates components and animations that provide more feedback to users.
-                        Additionally, a single underlying responsive system across all platforms allow for a more
-                        unified user experience.</p>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-                    <h5 class="center">Easy to work with</h5>
-
-                    <p class="light">We have provided detailed documentation as well as specific code examples to help
-                        new users get started. We are also always open to feedback and can answer any questions a user
-                        may have about Materialize.</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-            </div>
-        </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-</div>
-
-<div class="container">
-    <div class="section">
-
-        <div class="row">
-            <div class="col s12 center">
-                <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>Contact Us</h4>
-                <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque
-                    id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut
-                    ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem
-                    neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu
-                    mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum
-                    ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-            </div>
-        </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-</div>
-
-<footer class="page-footer teal">
+<!--Startbildschirm-->
     <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Company Bio</h5>
-                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's
-                    our full time job. Any amount would help support and continue development on this project and is
-                    greatly appreciated.</p>
+        <div class="center-align">
+            <img src="img/Bild1.png" alt="Kompressor" class="responsive-img">
+            <h1 class="center-align blue1-text">Wir reden nicht von Umweltschutz, wir machen Umweltschutz!</h1>
+        </div>
+    </div>
 
+<!--Anwendungsgebiete-->
+    <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+        <span>Anwendungsgebiete</span>
+    </div>
 
+<!--Alleinstellungsmerkmale-->
+<div class="container col s12 m7 visible_m_l_xl">
+    <div class="card horizontal">
+        <div class="card-image valign-wrapper blue1 light">
+            <div class="cardBox">
+                <i class="material-icons md-56 amber-text">star_border</i>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Settings</h5>
-                <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
+        </div>
+        <div class="card-stacked">
+            <div class="card-content">
+                <span class="fontSizeStandartTitle">Alleinstellungsmerkmale</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Connect</h5>
-                <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
+            <div class="card-action">
+                <a href="#">Hier finden Sie alle Vorteile im Überblick</a>
             </div>
         </div>
     </div>
+</div>
+
+<div class=" container col s12 m7 visible_s">
+    <div class="card">
+        <div class="card-image valign-wrapper blue1 light">
+            <div class="cardBox center-align">
+                <div class="center">
+                    <i class="material-icons md-56 amber-text">star_border</i>
+                </div>
+            </div>
+        </div>
+        <div class="card-content">
+            <span class="fontSizeStandartTitle">Alleinstellungsmerkmale</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="card-action">
+            <a href="#">Hier finden Sie alle Vorteile im Überblick</a>
+        </div>
+    </div>
+</div>
+
+<!--Vorteile-->
+    <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+        <span>Vorteile</span>
+    </div>
+
+<!--Technische Angaben-->
+    <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+        <span>Technische Angaben</span>
+    </div>
+
+<!--Aktuelles-->
+    <div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
+        <span>Aktuelles</span>
+    </div>
+
+<!--Kontakt-->
+    <div class="blue1 light2">
+        <div class="container kontaktBox center-align">
+            <p>Haben Sie weitere Fragen zum Produkt?</p>
+
+            <a href = "mailto: abc@example.com" class="btn amber waves-effect waves-light">
+                <span>Email</span>
+                <i class="material-icons right">send</i>
+            </a>
+
+        </div>
+    </div>
+
+<!--Footer-->
+<footer class="page-footer blue1 blue1-text text-light2">
+    <div class="fontSizeStandartTitle center-align footerItem">
+        <span>Get In Touch</span>
+    </div>
+    <div class="valign-wrapper">
+        <div class="row container">
+
+            <!--Spalte 1-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <div class="footerItem">
+                    <i class="material-icons">room</i>
+                    <div class="center-align contactSpace">
+                        <span>pulsmin GmbH<br>Hans Luette<br>Seelhofstraße 24<br>D- 79539 Lörrach</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 2-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <!--Phone-->
+                <div class="footerItem">
+                    <i class="material-icons">phone</i>
+                    <div class="center-align contactSpace">
+                        + 49 (0) 7621 169976
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 3-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <!--Email-->
+                <div class="footerItem">
+                    <i class="material-icons">mail</i>
+                    <div class="center-align contactSpace">
+                        info@pulsmin.com
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 4-->
+            <div class="col l3 m12 s12 center-align">
+                <img src="img/Hans_Luette.jpg" alt="Hans Lütte" class="circle responsive-img size-100 z-depth-5">
+            </div>
+        </div>
+    </div>
+
     <div class="footer-copyright">
-        <div class="container">
-            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        <div class="container center-align">
+            Made by <span class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Louisa Reinger</span>
         </div>
     </div>
+  </footer>
+
 </footer>
-
-
-<!--  Scripts-->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
-
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 </body>
 </html>
