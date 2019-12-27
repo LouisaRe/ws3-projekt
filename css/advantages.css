@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-.titlerec {
+#titlerec, #titlerec_mobile {
     background: #296692;
     color: white;
     padding: 10px;
@@ -55,7 +55,9 @@
     #vorteile_icons {
         display: none;
     }
-
+    #vorteile_header {
+        top: auto !important;
+    }
     .showhide {
         display: block;
     }

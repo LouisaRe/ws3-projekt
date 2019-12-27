@@ -17,7 +17,6 @@ window.onscroll = function () {
         wS = window.pageYOffset;
     if (wS > (hT + hH - wH)) {
         elem1.style.position = "sticky";
-        elem1.style.overflow = "hidden";
         elem1.style.top = "0";
         icon1.style.background = lightcolor;
         icon2.style.background = darkcolor;
