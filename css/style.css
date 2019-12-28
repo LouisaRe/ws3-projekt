@@ -84,6 +84,11 @@ h1{
 .blue1.light2{
   background-color: #edf5fa !important;
 }
+.yellow1{
+  background-color: #DDB900;
+}
+
+
 /*-----------------------------------------------------------*/
 
 /*-----------------CSS von material-icons---------------*/
@@ -129,9 +134,6 @@ nav ul a,
 nav {
   color: white !important;
 }
-.nav-wrapper{
-  position:absolute !important;
-}
 
 .logo{
   font-weight: bold !important;
@@ -143,6 +145,7 @@ nav {
   font-weight: bold !important;
   font-size: 30px !important;
   background: #296692 !important;
+  color: #296692 !important;
 }
 
 nav a,
@@ -189,6 +192,9 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .brand-logo {
+    color: white !important;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -208,5 +214,45 @@ footer.page-footer {
   margin: 0;
 }
 
+/*----------------CSS für Aktuelles------------------*/
 
+nav a.selected {
+  background: #245070;
+}
+.blogimage {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-left: -10px;
+}
+.weiterlesen {
+  text-decoration: underline !important;
+}
 
+.blogtitle {
+  margin-top: -10px;
+}
+
+@media only screen and (max-width : 600px) {
+
+  .row .col {
+    padding: 0 !important;
+  }
+  .blogimage {
+    margin-left: 0;
+  }
+
+  .blogtitle, .weiterlesen {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+  .postbackground {
+    background: #F0F9FF;
+    padding-bottom: 20px;
+    /* Copied from materialize.css .z-depth-1*/
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+}
