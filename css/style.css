@@ -35,6 +35,52 @@ h1{
   font-size: 3rem;
 }
 
+.blogimageindex {
+  width:100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.blogtitleindex {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.weiterlesenindex {
+  margin-left: 10px;
+  padding: 10px;
+  text-decoration: underline !important;
+}
+
+.aktuellesindex  .row .col {
+  padding-bottom: 20px !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+
+  background: #F0F9FF;
+  /* Copied from materialize.css .z-depth-1*/
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width : 600px)and (max-width: 992px){
+  .aktuellesindex  .row .col.m4 {
+    margin-right: 16px;
+    width: 30% !important;
+  }
+
+  }
+
+@media only screen and (min-width : 992px) {
+  .aktuellesindex  .row .col.l4 {
+    margin-right: 22px;
+    width: 30% !important;
+  }
+
+}
+
 /*--------------------Grössenanpassungen-----------------------*/
 
 /*SMALL (mobile)*/
@@ -84,10 +130,6 @@ h1{
 .blue1.light2{
   background-color: #edf5fa !important;
 }
-.yellow1{
-  background-color: #DDB900;
-}
-
 
 /*-----------------------------------------------------------*/
 
