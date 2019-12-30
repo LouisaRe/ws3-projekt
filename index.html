@@ -29,14 +29,14 @@
     <a id="logo-container" href="#" class="brand-logo">pulsmin</a>
     <div class="nav-wrapper">
 
-        <ul class="right hide-on-med-and-down">
+        <ul class="hide-on-med-and-down">
             <li><a class="logo" href="#">pulsmin</a></li>
             <li><a href="#">Start</a></li>
             <li><a href="#anwendungsgebietediv">Anwendungsgebiete</a></li>
             <li><a href="#alleinstellungsmerkmalediv">Alleinstellungsmerkmale</a></li>
             <li><a href="#vorteile_container">Vorteile</a></li>
             <li><a href="#technischeangabendiv">Technische Angaben</a></li>
-            <li><a href="#">Aktuelles</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
             <li><a href="#kontaktdiv">Kontakt</a></li>
         </ul>
 
@@ -47,7 +47,7 @@
             <li><a href="#alleinstellungsmerkmalediv" onclick="location.reload()">Alleinstellungsmerkmale</a></li>
             <li><a href="#vorteile_container" onclick="location.reload()">Vorteile</a></li>
             <li><a href="#technischeangabendiv" onclick="location.reload()">Technische Angaben</a></li>
-            <li><a href="#" onclick="location.reload()">Aktuelles</a></li>
+            <li><a href="aktuelles.html" onclick="location.reload()">Aktuelles</a></li>
             <li><a href="#kontaktdiv" onclick="location.reload()">Kontakt</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"
@@ -65,7 +65,8 @@
 </div>
 
 <!--Anwendungsgebiete-->
-<div id="anwendungsgebietediv" class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+<div id="anwendungsgebietediv"
+     class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
     <span>Anwendungsgebiete</span>
 </div>
 
@@ -128,11 +129,11 @@
                     <div class="row">
                         <div class="col s2">
                             <div class="circle" id="umweltschutz_icon">
-                                <img src="advantages_images/icon_umweltschutz.png" class="iconimg">
+                                <img src="img/vorteile_images/icon_umweltschutz.png" class="iconimg">
                             </div>
                         </div>
                         <div class="col s2">
-                            <div class="circle" id="vorteile_icon2"><img src="advantages_images/icon_vorteil2.png"
+                            <div class="circle" id="vorteile_icon2"><img src="img/vorteile_images/icon_vorteil2.png"
                                                                          class="iconimg">
                             </div>
                         </div>
@@ -168,10 +169,10 @@
                 <div class="row">
                     <h4>Umweltschutz</h4>
                     <div class="col s12 l3">
-                        <img class="resizeableimg" src="advantages_images/umweltschutz_berge.png">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschutz_berge.png">
                     </div>
                     <div class="col s12 l3">
-                        <img class="resizeableimg" src="advantages_images/umweltschutz_baum.png">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschutz_baum.png">
                     </div>
                     <div class="col s12 l6">
                         <p>
@@ -188,7 +189,7 @@
                 </div>
                 <div class="row">
                     <div class="col s12 l3">
-                        <img class="resizeableimg" src="advantages_images/umweltschutz_erde.png">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschutz_erde.png">
                     </div>
                     <div class="col s12 l6">
                         <p>
@@ -203,7 +204,7 @@
                         </p>
                     </div>
                     <div class="col s12 l3">
-                        <img class="resizeableimg" src="advantages_images/umweltschutz_lampe.png">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschutz_lampe.png">
                     </div>
                 </div>
             </div>
@@ -459,13 +460,42 @@
 <div id="vorteile_container_end"></div>
 
 <!--Technische Angaben-->
-<div id="technischeangabendiv" class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+<div id="technischeangabendiv"
+     class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
     <span>Technische Angaben</span>
 </div>
 
 <!--Aktuelles-->
-<div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
-    <span>Aktuelles</span>
+<a href="aktuelles.html">
+    <div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
+        <span>Aktuelles</span>
+    </div>
+</a>
+<div class="aktuellesindex">
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <!--Blogpost1-->
+                <div class="col s12 m4 l4">
+                    <img class="blogimageindex" src="img/aktuelles_images/InnoTrans2020.jpg">
+                    <p class="blogtitleindex">Messeautritt InnoTrans 2020</p>
+                    <a href="blogposts/blogpost1/blogpost1.html" class="weiterlesenindex">weiterlesen</a>
+                </div>
+                <!--Blogpost2-->
+                <div class="col s12 m4 l4">
+                    <img class="blogimageindex" src="img/aktuelles_images/Artikel_Fachzeitschrift.png">
+                    <p class="blogtitleindex">Artikel in der Fachzeitschrift MM MaschienenMarkt</p>
+                    <a href="blogposts/blogpost2/blogpost2.html" class="weiterlesenindex">weiterlesen</a>
+                </div>
+                <!--Blogpost3-->
+                <div class="col s12 m4 l4">
+                    <img class="blogimageindex" src="img/aktuelles_images/Fischer_Erfinderpreis_2019.jpg">
+                    <p class="blogtitleindex">Teilnahme Artur Fischer Erfinderpreis Baden-Württemberg 2019</p>
+                    <a href="blogposts/blogpost3/blogpost3.html" class="weiterlesenindex">weiterlesen</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!--Kontakt-->
@@ -531,7 +561,7 @@
     <div class="footer-copyright">
         <div class="container center-align">
             Made by <span
-                class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Louisa Reinger</span>
+                class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Reinger Lousia</span>
         </div>
     </div>
 </footer>

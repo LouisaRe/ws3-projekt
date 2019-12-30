@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
 
-/*----------------CSS für index------------------*/
+/*----------------CSS für Footer------------------*/
 
 .fontSizeStandartTitle{
   font-size: 2rem;
@@ -34,6 +34,16 @@
 h1{
   font-size: 3rem;
 }
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
 
 /*--------------------Grössenanpassungen-----------------------*/
 
@@ -49,15 +59,15 @@ h1{
     display: none;
   }
 }
+
 /*GRÖSSER ALS SMALL*/
 @media only screen and (min-width : 601px) {
   .visible_s{
     display: none;
   }
 }
+
 /*--------------------------------------------------------------*/
-
-
 
 /*--------------------------Farben--------------------------*/
 .blue1{
@@ -84,6 +94,7 @@ h1{
 .blue1.light2{
   background-color: #edf5fa !important;
 }
+
 /*-----------------------------------------------------------*/
 
 /*-----------------CSS von material-icons---------------*/
@@ -101,33 +112,15 @@ h1{
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
 /*-------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*----------------CSS für index-beispiel------------------*/
 
 
 
-
+/*-------------------------------------------------------*/
 
 /*----------------CSS Navigation------------------*/
 
@@ -135,57 +128,48 @@ nav ul a,
 nav {
   color: white !important;
 }
-.nav-wrapper{
-  position: absolute !important;
+nav a.selected {
+  background: #245070;
 }
-
 .logo{
   font-weight: bold !important;
   font-size: 30px !important;
   background: #296692 !important;
 }
-
 .brand-logo {
   font-weight: bold !important;
   font-size: 30px !important;
   background: #296692 !important;
+  color: #296692 !important;
 }
 
-nav a,
-nav a:visited {
-  background: #296692;
-  color: white;
-}
 nav a:not(.selected):hover {
   background: #245070;
   color: white;
 }
-
 #backgroundnav, #backgroundmenu{
   background: #296692;
 }
-
 .sidenav-overlay {
   background-color: white !important;
 }
-
 p {
   line-height: 2rem;
 }
-
 .sidenav {
   background-color: #296692 !important;
 }
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
+
+/*--------------------Grössenanpassungen-----------------------*/
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -195,6 +179,9 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .brand-logo {
+    color: white !important;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -203,19 +190,87 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
+/*-------------------------------------------------------*/
+
+/*----------------CSS für Aktuelles------------------*/
+.blogimageindex {
+  width:100%;
+  max-width: 600px;
+  height: auto;
 }
-.icon-block .material-icons {
-  font-size: inherit;
+.blogtitleindex {
+  margin-left: 10px;
+  padding: 10px;
+}
+.weiterlesenindex {
+  margin-left: 10px;
+  padding: 10px;
+  text-decoration: underline !important;
+}
+.aktuellesindex  .row .col {
+  padding-bottom: 20px !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  background: #F0F9FF;
+  /* Copied from materialize.css .z-depth-1*/
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.blogimage {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-left: -10px;
+}
+.weiterlesen {
+  text-decoration: underline !important;
+}
+.blogtitle {
+  margin-top: -10px;
 }
 
-footer.page-footer {
-  margin: 0;
+/*--------------------Grössenanpassungen-----------------------*/
+
+@media only screen and (min-width : 600px)and (max-width: 992px){
+  .aktuellesindex  .row .col.m4 {
+    margin-right: 16px;
+    width: 30% !important;
+  }
 }
+
+@media only screen and (min-width : 992px) {
+  .aktuellesindex  .row .col.l4 {
+    margin-right: 22px;
+    width: 30% !important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .blogimage {
+    margin-left: 0;
+  }
+  .blogtitle, .weiterlesen {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+  .postbackground {
+    background: #F0F9FF;
+    padding-bottom: 20px;
+    /* Copied from materialize.css .z-depth-1*/
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  #aktuelles .row .col {
+    padding: 0 !important;
+  }
+}
+
+/*-------------------------------------------------------*/
 
 /*----------------CSS für Vorteile------------------*/
-
 .circle {
   width: 100px;
   height: 100px;
@@ -225,39 +280,41 @@ footer.page-footer {
   border-radius: 50px;
   margin: 0 auto;
 }
-
 .iconimg {
   max-width: 100px;
   height: auto;
 }
-
 .resizeableimg {
   max-width: 100%;
   height: auto;
   margin-top: 10px;
 }
-
 #vorteile_header {
   background: white;
 }
-
 .showhidetitle {
   background: #296692;
   color: white;
   padding: 13px;
   font-size: 27px;
 }
-
 .showhide {
   display: none;
 }
-
 .showhide  .material-icons {
   float: right;
   margin-top: -65px;
   margin-right: 4px;
   font-size: 50px !important;
   color : white;
+}
+
+/*--------------------Grössenanpassungen-----------------------*/
+
+@media only screen and (max-width : 600px) {
+  #vorteile_container  .row .col {
+    padding: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 992px) {
