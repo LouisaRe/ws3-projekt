@@ -9,23 +9,22 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <style>
-    </style>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-  </head>
-  <body>
-  <!--Header-->
+</head>
+<body onresize="showAndhideContent(['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['plus_icon1', 'plus_icon2', 'plus_icon3', 'plus_icon4', 'plus_icon5', 'plus_icon6'])"
+      onload="showAndhideContent(['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['umweltschutz', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], [])">
+<!--Header-->
 <nav id="backgroundnav" role="navigation">
     <a id="logo-container" href="#" class="brand-logo">pulsmin</a>
     <div class="nav-wrapper">
@@ -33,44 +32,45 @@
         <ul class="right hide-on-med-and-down">
             <li><a class="logo" href="#">pulsmin</a></li>
             <li><a href="#">Start</a></li>
-            <li><a href="#">Anwendungsgebiete</a></li>
-            <li><a href="#">Alleinstellungsmerkmale</a></li>
-            <li><a href="#">Vorteile</a></li>
-            <li><a href="#">Technische Angaben</a></li>
+            <li><a href="#anwendungsgebietediv">Anwendungsgebiete</a></li>
+            <li><a href="#alleinstellungsmerkmalediv">Alleinstellungsmerkmale</a></li>
+            <li><a href="#vorteile_container">Vorteile</a></li>
+            <li><a href="#technischeangabendiv">Technische Angaben</a></li>
             <li><a href="#">Aktuelles</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="#kontaktdiv">Kontakt</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
-            <li><a class="logo" href="#">pulsmin</a></li>
-            <li><a href="#">Start</a></li>
-            <li><a href="#">Anwendungsgebiete</a></li>
-            <li><a href="#">Alleinstellungsmerkmale</a></li>
-            <li><a href="#">Vorteile</a></li>
-            <li><a href="#">Technische Angaben</a></li>
-            <li><a href="#">Aktuelles</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a class="logo" href="#" onclick="location.reload()">pulsmin</a></li>
+            <li><a href="#" onclick="location.reload()">Start</a></li>
+            <li><a href="#anwendungsgebietediv" onclick="location.reload()">Anwendungsgebiete</a></li>
+            <li><a href="#alleinstellungsmerkmalediv" onclick="location.reload()">Alleinstellungsmerkmale</a></li>
+            <li><a href="#vorteile_container" onclick="location.reload()">Vorteile</a></li>
+            <li><a href="#technischeangabendiv" onclick="location.reload()">Technische Angaben</a></li>
+            <li><a href="#" onclick="location.reload()">Aktuelles</a></li>
+            <li><a href="#kontaktdiv" onclick="location.reload()">Kontakt</a></li>
         </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"  id="backgroundmenu">menu</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"
+                                                                        id="backgroundmenu">menu</i></a>
     </div>
 </nav>
 <!--TODO: Der komplette Body muss noch mit den richtigen Bildern und Texten gefüllt werden!-->
 
 <!--Startbildschirm-->
-    <div class="container">
-        <div class="center-align">
-            <img src="img/Bild1.png" alt="Kompressor" class="responsive-img">
-            <h1 class="center-align blue1-text">Wir reden nicht von Umweltschutz, wir machen Umweltschutz!</h1>
-        </div>
+<div class="container">
+    <div class="center-align">
+        <img src="img/Bild1.png" alt="Kompressor" class="responsive-img">
+        <h1 class="center-align blue1-text">Wir reden nicht von Umweltschutz, wir machen Umweltschutz!</h1>
     </div>
+</div>
 
 <!--Anwendungsgebiete-->
-    <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
-        <span>Anwendungsgebiete</span>
-    </div>
+<div id="anwendungsgebietediv" class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+    <span>Anwendungsgebiete</span>
+</div>
 
 <!--Alleinstellungsmerkmale-->
-<div class="container col s12 m7 visible_m_l_xl">
+<div id="alleinstellungsmerkmalediv" class="container col s12 m7 visible_m_l_xl">
     <div class="card horizontal">
         <div class="card-image valign-wrapper blue1 light">
             <div class="cardBox">
@@ -80,8 +80,10 @@
         <div class="card-stacked">
             <div class="card-content">
                 <span class="fontSizeStandartTitle">Alleinstellungsmerkmale</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
             </div>
             <div class="card-action">
                 <a href="#">Hier finden Sie alle Vorteile im Überblick</a>
@@ -101,8 +103,10 @@
         </div>
         <div class="card-content">
             <span class="fontSizeStandartTitle">Alleinstellungsmerkmale</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
         </div>
         <div class="card-action">
             <a href="#">Hier finden Sie alle Vorteile im Überblick</a>
@@ -110,37 +114,372 @@
     </div>
 </div>
 
-
-
-
 <!--Vorteile-->
-    <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
-        <span>Vorteile</span>
+<div id="vorteile_container">
+    <div id="vorteile_header">
+
+        <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+            <span id="titlerec">Vorteile</span>
+        </div>
+
+        <div id="vorteile_icons">
+            <div class="container">
+                <div class="section">
+                    <div class="row">
+                        <div class="col s2">
+                            <div class="circle" id="umweltschutz_icon">
+                                <img src="advantages_images/icon_umweltschutz.png" class="iconimg">
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon2"><img src="advantages_images/icon_vorteil2.png"
+                                                                         class="iconimg">
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon3"></div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon4"></div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon5"></div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon6"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-
-<!--Technische Angaben-->
-    <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
-        <span>Technische Angaben</span>
-    </div>
-
-<!--Aktuelles-->
-    <div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
-        <span>Aktuelles</span>
-    </div>
-
-<!--Kontakt-->
-    <div class="blue1 light2">
-        <div class="container kontaktBox center-align">
-            <p>Haben Sie weitere Fragen zum Produkt?</p>
-
-            <a href = "mailto: abc@example.com" class="btn amber waves-effect waves-light">
-                <span>Email</span>
-                <i class="material-icons right">send</i>
-            </a>
+    <div id="vorteile_text">
+        <div class="container">
+            <div class="showhide">
+                <div onclick='showfunction("umweltschutz", "plus_icon1", "minus_icon1")'>
+                    <h4 class="showhidetitle">Umweltschutz</h4>
+                    <i class="material-icons" id="plus_icon1">add</i>
+                    <i class="material-icons" id="minus_icon1">remove</i>
+                </div>
+            </div>
+            <div id="umweltschutz" class="vorteile">
+                <div class="row">
+                    <h4>Umweltschutz</h4>
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="advantages_images/umweltschutz_berge.png">
+                    </div>
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="advantages_images/umweltschutz_baum.png">
+                    </div>
+                    <div class="col s12 l6">
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                            et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                            sanctus est
+                            Lorem ipsum dolor sit amet. Lorem ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="advantages_images/umweltschutz_erde.png">
+                    </div>
+                    <div class="col s12 l6">
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                            et
+                            accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                            sanctus est
+                            Lorem ipsum dolor sit amet. Lorem ipsum.
+                        </p>
+                    </div>
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="advantages_images/umweltschutz_lampe.png">
+                    </div>
+                </div>
+            </div>
+            <div class="showhide">
+                <div onclick='showfunction("vorteil2", "plus_icon2", "minus_icon2")'>
+                    <h4 class="showhidetitle">Vorteil 2</h4>
+                    <i class="material-icons" id="plus_icon2">add</i>
+                    <i class="material-icons" id="minus_icon2">remove</i>
+                </div>
+            </div>
+            <div id="vorteil2" class="vorteile">
+                <div class="row">
+                    <h4>Vorteil 2</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                    </p>
+                </div>
+            </div>
+            <div class="showhide">
+                <div onclick='showfunction("vorteil3", "plus_icon3", "minus_icon3")'>
+                    <h4 class="showhidetitle">Vorteil 3</h4>
+                    <i class="material-icons" id="plus_icon3">add</i>
+                    <i class="material-icons" id="minus_icon3">remove</i>
+                </div>
+            </div>
+            <div id="vorteil3" class="vorteile">
+                <div class="row">
+                    <h4>Vorteil 3</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                    </p>
+                </div>
+            </div>
+            <div class="showhide">
+                <div onclick='showfunction("vorteil4", "plus_icon4", "minus_icon4")'>
+                    <h4 class="showhidetitle">Vorteil 4</h4>
+                    <i class="material-icons" id="plus_icon4">add</i>
+                    <i class="material-icons" id="minus_icon4">remove</i>
+                </div>
+            </div>
+            <div id="vorteil4" class="vorteile">
+                <div class="row">
+                    <h4>Vorteil 4</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                    </p>
+                </div>
+            </div>
+            <div class="showhide">
+                <div onclick='showfunction("vorteil5", "plus_icon5", "minus_icon5")'>
+                    <h4 class="showhidetitle">Vorteil 5</h4>
+                    <i class="material-icons" id="plus_icon5">add</i>
+                    <i class="material-icons" id="minus_icon5">remove</i>
+                </div>
+            </div>
+            <div id="vorteil5" class="vorteile">
+                <div class="row">
+                    <h4>Vorteil 5</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                    </p>
+                </div>
+            </div>
+            <div class="showhide">
+                <div onclick='showfunction("vorteil6", "plus_icon6", "minus_icon6")'>
+                    <h4 class="showhidetitle">Vorteil 6</h4>
+                    <i class="material-icons" id="plus_icon6">add</i>
+                    <i class="material-icons" id="minus_icon6">remove</i>
+                </div>
+            </div>
+            <div id="vorteil6" class="vorteile">
+                <div class="row">
+                    <h4>Vorteil 6</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                        accusam
+                        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est
+                        Lorem ipsum dolor sit amet. Lorem ipsum.
+                    </p>
+                </div>
+            </div>
 
         </div>
     </div>
+</div>
+<div id="vorteile_container_end"></div>
+
+<!--Technische Angaben-->
+<div id="technischeangabendiv" class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+    <span>Technische Angaben</span>
+</div>
+
+<!--Aktuelles-->
+<div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
+    <span>Aktuelles</span>
+</div>
+
+<!--Kontakt-->
+<div id="kontaktdiv" class="blue1 light2">
+    <div class="container kontaktBox center-align">
+        <p>Haben Sie weitere Fragen zum Produkt?</p>
+
+        <a href="mailto: abc@example.com" class="btn amber waves-effect waves-light">
+            <span>Email</span>
+            <i class="material-icons right">send</i>
+        </a>
+
+    </div>
+</div>
 
 <!--Footer-->
 <footer class="page-footer blue1 blue1-text text-light2">
@@ -191,14 +530,19 @@
 
     <div class="footer-copyright">
         <div class="container center-align">
-            Made by <span class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Louisa Reinger</span>
+            Made by <span
+                class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Louisa Reinger</span>
         </div>
     </div>
+</footer>
 
 </footer>
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+<!--  Scripts-->
+<script type="text/javascript" src="js/advantages.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
 </body>
 </html>

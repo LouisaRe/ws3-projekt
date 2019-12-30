@@ -125,12 +125,18 @@ h1{
 
 /*----------------CSS für index-beispiel------------------*/
 
+
+
+
+
+/*----------------CSS Navigation------------------*/
+
 nav ul a,
 nav {
   color: white !important;
 }
 .nav-wrapper{
-  position:absolute !important;
+  position: absolute !important;
 }
 
 .logo{
@@ -208,5 +214,60 @@ footer.page-footer {
   margin: 0;
 }
 
+/*----------------CSS für Vorteile------------------*/
 
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #296692;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
 
+.iconimg {
+  max-width: 100px;
+  height: auto;
+}
+
+.resizeableimg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+#vorteile_header {
+  background: white;
+}
+
+.showhidetitle {
+  background: #296692;
+  color: white;
+  padding: 13px;
+  font-size: 27px;
+}
+
+.showhide {
+  display: none;
+}
+
+.showhide  .material-icons {
+  float: right;
+  margin-top: -65px;
+  margin-right: 4px;
+  font-size: 50px !important;
+  color : white;
+}
+
+@media only screen and (max-width: 992px) {
+  #vorteile_icons {
+    display: none;
+  }
+  #vorteile_header {
+    top: auto !important;
+  }
+  .showhide {
+    display: block;
+  }
+}
