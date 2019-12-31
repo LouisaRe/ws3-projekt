@@ -330,7 +330,11 @@ p {
 }
 
 /*----------------CSS für Slideshow------------------*/
-
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
 
 #ueberschrift{
     background-color: #edf5fa;
@@ -341,4 +345,7 @@ h2{
     margin: 1.3rem 0 1.8rem 0;
     font-size: 18px;
     font-weight: bold;
+}
+.slider{
+    background-color:  #edf5fa;
 }
