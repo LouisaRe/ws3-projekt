@@ -14,6 +14,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!-- CSS  -->
@@ -467,13 +468,24 @@
 
     
 <!--Slider-->
-<div class="carousel">
+<div class="container">
+    <div class="section">
+        <div class="row">
+<div class="carousel" id="images_carousel">
     <a class="carousel-item" href="#one!"><img src="img/technisch_images/Explosionsdarstellung.PNG"></a>
     <a class="carousel-item" href="#two!"><img src="img/technisch_images/Kompressor.PNG"></a>
     <a class="carousel-item" href="#three!"><img src="img/technisch_images/Kompressor_Seite.PNG"></a>
     <a class="carousel-item" href="#four!"><img src="img/technisch_images/Kompressor_Stufe.PNG"></a>
     <a class="carousel-item" href="#five!"><img src="img/technisch_images/Kompressor_Unterseite.PNG"></a>
   </div>
+ </div>
+        </div>
+    </div>
+<script>
+        $(document).ready(function(){
+            $('#images_carousel').carousel();
+    });
+</script>
  
 <div class="container">
     <div class="section">
