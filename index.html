@@ -14,7 +14,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
-    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>            
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!-- CSS  -->
@@ -467,47 +467,30 @@
 </div>
 
     
-<!--Slider-->
+<!--Carousel-->
 <div class="container">
     <div class="section">
         <div class="row">
-  <div class="slider" id="slider_images">
-    <ul class="slides">
-      <li>
-        <img src="img/technisch_images/Explosionsdarstellung.PNG"> 
-        <div class="caption left-align">
-          <h3>Explosionsdarstellung</h3>
-        </div>
-      </li>
-      <li>
-        <img src="img/technisch_images/Kompressor_Seite.PNG"> 
-        <div class="caption center-align">
-          <h3>Kompressor von der Seite</h3>
-        </div>
-      </li>
-      
-      <li>
-        <img src="img/technisch_images/Kompressor_Seitenansicht.PNG"> 
-        <div class="caption left-align">
-          <h3>Kompressor von der Seite</h3>
-        </div>
-      </li>
-      <li>
-        <img src="img/technisch_images/Kompressor_Stufe.PNG"> 
-        <div class="caption center-align">
-          <h3>Stufe des Kompressors</h3>
-        </div>
-      </li>
-    </ul>
-  </div>
+            <div id="ueberschrift" class="col s12">
+                <h2> Bilder von Kompressor</h2>
+             </div>    
+                
+            <div class="carousel" id="images_carousel" data-indicators="true">
+                <a class="carousel-item" href="#one!"><img src="img/technisch_images/Explosionsdarstellung.PNG"></a>    
+                <a class="carousel-item" href="#two!"><img src="img/technisch_images/Kompressor.PNG"></a>
+                <a class="carousel-item" href="#three!"><img src="img/technisch_images/Kompressor_Seite.PNG"></a>
+                <a class="carousel-item" href="#four!"><img src="img/technisch_images/Kompressor_Stufe.PNG"></a>
+                <a class="carousel-item" href="#five!"><img src="img/technisch_images/Kompressor_Unterseite.PNG"></a>
             </div>
         </div>
     </div>
-  <script>  
-    $(document).ready(function(){
-        $('#slider_images').slider();
-    });
-    </script>
+</div>  
+<script>
+        $(document).ready(function(){
+            $('#images_carousel').carousel();            
+        });       
+</script>
+<!--Tabelle mit techn Angaben-->    
 <div class="container">
     <div class="section">
         <div class="row">

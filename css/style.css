@@ -338,7 +338,7 @@ h3{
 
 #ueberschrift{
     background-color: #edf5fa;
-    box-shadow: 10px 10px 5px #296692;
+    box-shadow: 5px 5px 8px #296692;
     height: 60px;
 }
 h2{
@@ -346,6 +346,6 @@ h2{
     font-size: 18px;
     font-weight: bold;
 }
-.slider{
-    background-color:  #edf5fa;
+.carousel{
+    height:300px;
 }
