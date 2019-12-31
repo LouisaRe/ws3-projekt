@@ -328,3 +328,17 @@ p {
     display: block;
   }
 }
+
+/*----------------CSS für Slideshow------------------*/
+
+
+#ueberschrift{
+    background-color: #edf5fa;
+    box-shadow: 10px 10px 5px #296692;
+    height: 60px;
+}
+h2{
+    margin: 1.3rem 0 1.8rem 0;
+    font-size: 18px;
+    font-weight: bold;
+}
