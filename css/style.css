@@ -331,3 +331,13 @@ p {
     display: block;
   }
 }
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für Anwendungsgebiete------------------*/
+
+.anwendungimage {
+  max-width: 100%;
+  height: auto;
+}
+
