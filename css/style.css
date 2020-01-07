@@ -337,15 +337,22 @@ h3{
 }
 
 #ueberschrift{
-    background-color: #edf5fa;
-    box-shadow: 5px 5px 8px #296692;
+    background-color: #296692;
+    
     height: 60px;
 }
 h2{
     margin: 1.3rem 0 1.8rem 0;
     font-size: 18px;
     font-weight: bold;
+    color: white;
 }
 .carousel{
     height:300px;
+}
+#ueberschrift1 {
+    background-color: #F0F9FF;
+    box-shadow: 0px 5px 3px 0px #C9D3DA;
+    height: 100px;
+    margin-bottom: 20px;
 }
