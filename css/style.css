@@ -336,9 +336,9 @@ h3{
     color: black;
 }
 
-#ueberschrift{
+.ueberschrift{
     background-color: #296692;    
-    height: 60px;
+    height: auto;
 }
 h2{
     margin: 1.3rem 0 1.8rem 0;
@@ -348,15 +348,15 @@ h2{
 .carousel{
     height:300px;
 }
-#ueberschrift1 {
+.ueberschrift1 {
     background-color: #F0F9FF;
     box-shadow: 0px 5px 3px 0px #C9D3DA;
-    height: 80px;
+    height: auto;
     margin-bottom: 20px;
 }
-#ueberschrift2 {
+.ueberschrift2 {
     background-color: #F0F9FF;
     box-shadow: 0px 5px 3px 0px #C9D3DA;
-    height: 110px;
+    height: auto;
     margin-bottom: 20px;
 }
