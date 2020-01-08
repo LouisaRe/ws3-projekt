@@ -34,7 +34,7 @@
 h1{
   font-size: 3rem;
 }
-h6{
+.anwendungsgebiete  h6{
     font-weight: bold;
 }
 .icon-block {
@@ -358,4 +358,39 @@ nav ul.navmid li {
 .anwendungbeschreibung, .anwendung1 {
     margin-left: -10px;
     margin-top: -4px;
+}
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für technische Angaben------------------*/
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.ueberschrift{
+    background-color: #296692;    
+    height: auto;
+}
+h2{
+    margin: 1.3rem 0 1.8rem 0;
+    font-size: 18px;    
+    color: white;
+}
+.carousel{
+    height:300px;
+}
+.ueberschrift1 {
+    background-color: #F0F9FF;
+    box-shadow: 0px 5px 3px 0px #C9D3DA;
+    height: auto;
+    margin-bottom: 20px;
+}
+.ueberschrift2 {
+    background-color: #F0F9FF;
+    box-shadow: 0px 5px 3px 0px #C9D3DA;
+    height: auto;
+    margin-bottom: 20px;
 }
