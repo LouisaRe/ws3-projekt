@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3cdd9ce-d27e-48ce-b7fd-efcc60760558" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aktuelles.html" beforeDir="false" afterPath="$PROJECT_DIR$/aktuelles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,30 +21,21 @@
     <favorites_list name="ws3-projekt" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="252" column="39" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
+            <state relative-caret-position="323">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aktuelles.html">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="91" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="91" />
+            <state relative-caret-position="850">
+              <caret line="259" column="22" selection-start-line="259" selection-start-column="22" selection-end-line="259" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -63,6 +61,8 @@
       <find>.row .col</find>
       <find>row</find>
       <find>selected</find>
+      <find>30%</find>
+      <find>ca</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,21 +75,21 @@
         <option value="$PROJECT_DIR$/blogposts/blogpost1.html" />
         <option value="$PROJECT_DIR$/js/blog.js" />
         <option value="$PROJECT_DIR$/js/navbar.js" />
+        <option value="$PROJECT_DIR$/aktuelles.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html" />
         <option value="$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html" />
         <option value="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" />
         <option value="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/aktuelles.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1044" />
+    <option name="x" value="-1462" />
+    <option name="y" value="307" />
+    <option name="width" value="780" />
+    <option name="height" value="403" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -106,12 +106,41 @@
             <path>
               <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
+              <item name="blogpost1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
+              <item name="blogpost2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
+              <item name="blogpost3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
+              <item name="blogpost4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,16 +158,16 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dominique\git\ws3-projekt" />
+      <recent name="C:\Users\Dominique\git\ws3-projekt\blogposts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dominique\git\ws3-projekt\img" />
       <recent name="C:\Users\Dominique\git\ws3-projekt\blogposts" />
       <recent name="C:\Users\Dominique\git\ws3-projekt\img\aktuelles_images" />
       <recent name="C:\Users\Dominique\git\ws3-projekt\aktuelles_images" />
       <recent name="C:\Users\Dominique\git\ws3-projekt" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dominique\git\ws3-projekt" />
-      <recent name="C:\Users\Dominique\git\ws3-projekt\blogposts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,17 +199,18 @@
       <workItem from="1577620899320" duration="13530000" />
       <workItem from="1577714654164" duration="3113000" />
       <workItem from="1577806720462" duration="814000" />
+      <workItem from="1578504737628" duration="2848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62079000" />
+    <option name="totallyTimeSpent" value="67409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="835" extended-state="6" />
+    <frame x="-1865" y="-1" width="1873" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.20604026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.17374517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50071126" side_tool="true" weight="0.19395973" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,50 +270,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="91" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="252" column="39" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aktuelles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+        <state relative-caret-position="490">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="259" column="22" selection-start-line="259" selection-start-column="22" selection-end-line="259" selection-end-column="22" />
         </state>
       </provider>
     </entry>

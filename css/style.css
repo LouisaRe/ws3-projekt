@@ -153,9 +153,6 @@ nav a:not(.selected):hover {
 #backgroundnav, #backgroundmenu{
   background: #296692;
 }
-.sidenav-overlay {
-  background-color: white !important;
-}
 p {
   line-height: 2rem;
 }
@@ -170,6 +167,15 @@ p {
 }
 .parallax-container .section {
   width: 100%;
+}
+
+ul.navmid{
+  width: 1050px;
+  margin:0 auto;
+}
+nav ul.navmid li {
+  display: inline-block;
+  float: none;
 }
 
 /*--------------------Grössenanpassungen-----------------------*/
@@ -190,6 +196,12 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  nav ul a{
+    margin-top: -10px;
   }
 }
 
@@ -238,15 +250,16 @@ p {
 
 @media only screen and (min-width : 600px)and (max-width: 992px){
   .aktuellesindex  .row .col.m4 {
-    margin-right: 16px;
-    width: 30% !important;
+    margin:10px;
+    width:calc(100% / 12*4 - 20.01px);
   }
 }
 
 @media only screen and (min-width : 992px) {
   .aktuellesindex  .row .col.l4 {
-    margin-right: 22px;
-    width: 30% !important;
+   /* changed to -20.01px so that it works on edge as well*/
+    margin:10px;
+    width:calc(100% / 12*4 - 20.01px);
   }
 }
 
