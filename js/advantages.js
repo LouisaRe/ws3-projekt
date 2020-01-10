@@ -10,11 +10,26 @@ window.onscroll = function () {
     var lightcolor = "#82A2B7";
     var darkcolor = "#296692";
 
+    var vorteile_header_height = 200;
+
     var elem1 = document.getElementById("vorteile_header");
+    var elem2 = document.getElementById("vorteil2");
+    var elem3 = document.getElementById("vorteil3");
+    var elem4 = document.getElementById("vorteil4");
+    var elem5 = document.getElementById("vorteil5");
+    var elem6 = document.getElementById("vorteil6");
+
     var hT = elem1.offsetTop,
         hH = getAbsoluteHeight(elem1),
         wH = window.innerHeight,
         wS = window.pageYOffset;
+
+    var hT2 = elem2.offsetTop,
+        hT3 = elem3.offsetTop,
+        hT4 = elem4.offsetTop,
+        hT5 = elem5.offsetTop,
+        hT6 = elem6.offsetTop;
+
     if (wS > (hT + hH - wH)) {
         elem1.style.position = "sticky";
         elem1.style.top = "0";
@@ -33,9 +48,8 @@ window.onscroll = function () {
         icon6.style.background = darkcolor;
     }
 
-    var elem2 = document.getElementById("vorteil2");
-    var hT2 = elem2.offsetTop
-    if (wS > (hT2 + hH - wH)) {
+
+    if (wS > (hT2 + hH - wH - vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = lightcolor;
         icon3.style.background = darkcolor;
@@ -44,9 +58,9 @@ window.onscroll = function () {
         icon6.style.background = darkcolor;
     }
 
-    var elem3 = document.getElementById("vorteil3");
-    var hT3 = elem3.offsetTop
-    if (wS > (hT3 + hH - wH)) {
+
+
+    if (wS > (hT3 + hH - wH - vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = lightcolor;
@@ -55,9 +69,9 @@ window.onscroll = function () {
         icon6.style.background = darkcolor;
     }
 
-    var elem4 = document.getElementById("vorteil4");
-    var hT4 = elem4.offsetTop
-    if (wS > (hT4 + hH - wH)) {
+
+
+    if (wS > (hT4 + hH - wH - vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = darkcolor;
@@ -66,9 +80,9 @@ window.onscroll = function () {
         icon6.style.background = darkcolor;
     }
 
-    var elem5 = document.getElementById("vorteil5");
-    var hT5 = elem5.offsetTop
-    if (wS > (hT5 + hH - wH)) {
+
+
+    if (wS > (hT5 + hH - wH - vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = darkcolor;
@@ -77,9 +91,9 @@ window.onscroll = function () {
         icon6.style.background = darkcolor;
     }
 
-    var elem6 = document.getElementById("vorteil6");
-    var hT6 = elem6.offsetTop
-    if (wS > (hT6 + hH - wH)) {
+
+
+    if (wS > (hT6 + hH - wH - vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = darkcolor;
@@ -92,6 +106,28 @@ window.onscroll = function () {
 var hTend = document.getElementById("vorteile_container_end").offsetTop
 if (wS > (hTend + hH - wH)) {
     elem1.style.position = "absolute";
+}
+
+function jumptoadvantage(elemid) {
+    var elem = document.getElementById(elemid);
+    var corr = 300;
+    elem.scrollIntoView(true);
+    var hH = getAbsoluteHeight(elem),
+        wH = window.innerHeight;
+    var scrolledY = window.scrollY;
+
+    if (elemid === 'vorteile_container') {
+        if(scrolledY){
+            window.scroll(0, scrolledY -100);
+        }
+    } else {
+
+
+
+        if(scrolledY){
+            window.scroll(0, scrolledY + hH - wH - corr);
+        }
+    }
 }
 
 function getAbsoluteHeight(el) {
