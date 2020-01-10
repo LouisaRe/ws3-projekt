@@ -308,19 +308,12 @@ nav ul.navmid li {
 #vorteile_header {
   background: white;
 }
-.showhidetitle {
-  background: #296692;
-  color: white;
-  padding: 13px;
-  font-size: 27px;
-}
 .showhide {
   display: none;
 }
 .showhide  .material-icons {
   float: right;
-  margin-top: -65px;
-  margin-right: 4px;
+  margin-top: -0.3rem;
   font-size: 50px !important;
   color : white;
 }
@@ -331,6 +324,11 @@ nav ul.navmid li {
   #vorteile_container  .row .col {
     padding: 0 !important;
   }
+
+    .showhide  .material-icons {
+        margin-top: -0.6rem;
+        margin-right: -0.4rem;
+    }
 }
 
 @media only screen and (max-width: 992px) {

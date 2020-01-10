@@ -169,6 +169,9 @@ function showAndhideContent(arr1, arr2, arr3) {
         for (i = 0; i < arr2.length; i++) {
             document.getElementById(arr2[i]).style.display = "block";
         }
+        for (i = 0; i < arr4.length; i++) {
+            document.getElementById(arr1[i]).style.display = "none";
+        }
     }
 }
 
