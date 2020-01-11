@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/advantages.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/advantages.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="321" lean-forward="true" selection-start-line="321" selection-end-line="321" />
+            <state relative-caret-position="782">
+              <caret line="410" selection-start-line="410" selection-end-line="410" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="430" column="104" selection-start-line="430" selection-start-column="104" selection-end-line="430" selection-end-column="104" />
+            <state relative-caret-position="124">
+              <caret line="510" column="9" lean-forward="true" selection-start-line="510" selection-start-column="9" selection-end-line="510" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -75,6 +74,9 @@
       <find>material</find>
       <find>showhidetitle</find>
       <find>showhide</find>
+      <find>allgem</find>
+      <find>eigenschaften</find>
+      <find>circle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,9 +95,9 @@
         <option value="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" />
         <option value="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" />
         <option value="$PROJECT_DIR$/js/advantages.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -220,18 +222,19 @@
       <workItem from="1577806720462" duration="814000" />
       <workItem from="1578504737628" duration="2848000" />
       <workItem from="1578653252143" duration="15964000" />
-      <workItem from="1578691620829" duration="1768000" />
+      <workItem from="1578691620829" duration="3039000" />
+      <workItem from="1578750075359" duration="2452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85439000" />
+    <option name="totallyTimeSpent" value="89162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1865" y="-1" width="1873" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.1770546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.17870933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50071126" side_tool="true" weight="0.19395973" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,17 +334,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="430" column="104" selection-start-line="430" selection-start-column="104" selection-end-line="430" selection-end-column="104" />
+        <state relative-caret-position="782">
+          <caret line="410" selection-start-line="410" selection-end-line="410" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="321" lean-forward="true" selection-start-line="321" selection-end-line="321" />
+        <state relative-caret-position="124">
+          <caret line="510" column="9" lean-forward="true" selection-start-line="510" selection-start-column="9" selection-end-line="510" selection-end-column="9" />
         </state>
       </provider>
     </entry>
