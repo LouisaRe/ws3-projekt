@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f3cdd9ce-d27e-48ce-b7fd-efcc60760558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aktuelles.html" beforeDir="false" afterPath="$PROJECT_DIR$/aktuelles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Bild1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer_images/Bild1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Hans_Luette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer_images/Hans_Luette.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,29 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/advantages.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2652">
-              <caret line="156" selection-start-line="156" selection-end-line="156" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="410" selection-start-line="410" selection-end-line="410" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="510" column="9" lean-forward="true" selection-start-line="510" selection-start-column="9" selection-end-line="510" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -122,46 +110,7 @@
             <path>
               <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
-              <item name="blogpost1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
-              <item name="blogpost2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
-              <item name="blogpost3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
-              <item name="blogpost4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,16 +128,16 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dominique\git\ws3-projekt" />
-      <recent name="C:\Users\Dominique\git\ws3-projekt\blogposts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dominique\git\ws3-projekt\img\footer_images" />
       <recent name="C:\Users\Dominique\git\ws3-projekt\img" />
       <recent name="C:\Users\Dominique\git\ws3-projekt\blogposts" />
       <recent name="C:\Users\Dominique\git\ws3-projekt\img\aktuelles_images" />
       <recent name="C:\Users\Dominique\git\ws3-projekt\aktuelles_images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dominique\git\ws3-projekt" />
+      <recent name="C:\Users\Dominique\git\ws3-projekt\blogposts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,12 +172,12 @@
       <workItem from="1578504737628" duration="2848000" />
       <workItem from="1578653252143" duration="15964000" />
       <workItem from="1578691620829" duration="3039000" />
-      <workItem from="1578750075359" duration="2452000" />
+      <workItem from="1578750075359" duration="2764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89162000" />
+    <option name="totallyTimeSpent" value="89474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1865" y="-1" width="1873" height="1096" extended-state="6" />
@@ -327,13 +276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/advantages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -341,10 +283,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/advantages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="510" column="9" lean-forward="true" selection-start-line="510" selection-start-column="9" selection-end-line="510" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
