@@ -369,8 +369,8 @@ nav ul.navmid li {
 }
 .showhide  .material-icons {
   float: right;
-  margin-top: -0.3rem;
-  font-size: 50px !important;
+  margin-top: -0.3rem !important;
+  font-size: 40px !important;
   color : white;
 }
 .vorteileSection{
@@ -469,6 +469,6 @@ h2{
     color: black;
 }
 
-#technische_angaben  .titleBox {
+#technische_angaben  .vorteileBox {
     margin-bottom: 0 !important;
 }
