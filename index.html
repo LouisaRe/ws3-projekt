@@ -14,6 +14,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>            
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!-- CSS  -->
@@ -29,7 +30,7 @@
     <a id="logo-container" href="#" class="brand-logo">pulsmin</a>
     <div class="nav-wrapper">
 
-        <ul class="hide-on-med-and-down">
+        <ul class="hide-on-med-and-down navmid">
             <li><a class="logo" href="#">pulsmin</a></li>
             <li><a href="#">Start</a></li>
             <li><a href="#anwendungsgebietediv">Anwendungsgebiete</a></li>
@@ -121,54 +122,31 @@
         </div>
     </div>
 </div>
-    
-    
-    
-    
+
+
+
+
 <!--Alleinstellungsmerkmale-->
-<div id="alleinstellungsmerkmalediv" class="container col s12 m7 visible_m_l_xl">
-    <div class="card horizontal">
-        <div class="card-image valign-wrapper blue1 light">
-            <div class="cardBox">
-                <i class="material-icons md-56 amber-text">star_border</i>
-            </div>
-        </div>
-        <div class="card-stacked">
-            <div class="card-content">
-                <span class="fontSizeStandartTitle">Alleinstellungsmerkmale</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-            </div>
-            <div class="card-action">
-                <a href="#">Hier finden Sie alle Vorteile im Überblick</a>
-            </div>
-        </div>
-    </div>
+<div id="alleinstellungsmerkmalediv"
+     class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+    <span>Alleinstellungsmerkmale</span>
+</div>
+<div class="section">
+<div class="container">
+    <h6 id="alleinstellungsmerkmaletitle">Lorem ipsum</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+</div>
 </div>
 
-<div class=" container col s12 m7 visible_s">
-    <div class="card">
-        <div class="card-image valign-wrapper blue1 light">
-            <div class="cardBox center-align">
-                <div class="center">
-                    <i class="material-icons md-56 amber-text">star_border</i>
-                </div>
-            </div>
-        </div>
-        <div class="card-content">
-            <span class="fontSizeStandartTitle">Alleinstellungsmerkmale</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
-        </div>
-        <div class="card-action">
-            <a href="#">Hier finden Sie alle Vorteile im Überblick</a>
-        </div>
-    </div>
-</div>
 
 <!--Vorteile-->
 <div id="vorteile_container">
@@ -520,6 +498,63 @@
     <span>Technische Angaben</span>
 </div>
 
+    
+<!--Carousel-->
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div id="ueberschrift" class="col s12">
+                <h2> Bilder von Kompressor</h2>
+             </div>    
+                
+            <div class="carousel" id="images_carousel" data-indicators="true">
+                <a class="carousel-item" href="#one!"><img src="img/technisch_images/Explosionsdarstellung.PNG"></a>    
+                <a class="carousel-item" href="#two!"><img src="img/technisch_images/Kompressor.PNG"></a>
+                <a class="carousel-item" href="#three!"><img src="img/technisch_images/Kompressor_Seite.PNG"></a>
+                <a class="carousel-item" href="#four!"><img src="img/technisch_images/Kompressor_Stufe.PNG"></a>
+                <a class="carousel-item" href="#five!"><img src="img/technisch_images/Kompressor_Unterseite.PNG"></a>
+            </div>
+        </div>
+    </div>
+</div>  
+<script>
+        $(document).ready(function(){
+            $('#images_carousel').carousel();            
+        });       
+</script>
+<!--Tabelle mit techn Angaben-->    
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="col s12 ueberschrift">
+                <h2> Allgemeine Daten </h2>
+            </div>
+            <div class="col s6 m6 l6 ueberschrift1">
+                <h6> Bauart </h6>
+                <h6> Typ und Grösse </h6>
+            </div>
+            <div class="col s6 m6 l6 ueberschrift1">
+                <h6> Axial-Shrägscheiben-Kompressor </h6>
+                <h6> AXK 800-T </h6>
+            </div>
+            
+            <div class="col s12 ueberschrift">
+                <h2> Eigenschaften </h2>
+            </div>
+            <div class="col s6 m6 l6 ueberschrift2">
+                <h6> Vibration und Körperschall </h6>
+                <h6> Pulsation der Druckluft </h6>
+                <h6> Geräuschentwicklung </h6>
+            </div>
+            <div class="col s6 m6 l6 ueberschrift2">
+                <h6> Niedrig / gut </h6>
+                <h6> Niedrig / gut </h6>
+                <h6> Niedrig / gut </h6>
+            </div>
+        </div>
+    </div>
+</div>
+    
 <!--Aktuelles-->
 <a href="aktuelles.html">
     <div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
