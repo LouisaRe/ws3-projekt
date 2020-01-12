@@ -266,15 +266,42 @@ nav ul.navmid li {
   text-decoration: underline !important;
 }
 .blogtitle {
-  margin-top: -30px;
+  margin-top: -10px;
+}
+
+/*Aktuelles alle Einträge gleich gross*/
+.card.horizontal.small {
+  height: 130px;
+}
+
+/*Bilder alle gleich gross*/
+.card.horizontal .card-image img {
+  border-radius: 2px 0 0 2px;
+  width: auto !important;
+  height: auto !important;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
+  overflow: hidden !important;
 }
 
 /*--------------------Grössenanpassungen-----------------------*/
+
+@media only screen and (max-width: 600px){
+  .card.horizontal .card-image {
+    width: 0%;
+  }
+}
 
 @media only screen and (min-width : 600px)and (max-width: 992px){
   .aktuellesindex  .row .col.m4 {
     margin:10px;
     width:calc(100% / 12*4 - 20.01px);
+  }
+  .card.horizontal .card-image {
+    width: 20%;
   }
 }
 
@@ -284,9 +311,15 @@ nav ul.navmid li {
     margin:10px;
     width:calc(100% / 12*4 - 20.01px);
   }
+  .card.horizontal .card-image {
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width : 600px) {
+  .card.horizontal .card-image {
+    max-width: 40%;
+  }
   .blogimage {
     margin-left: 0;
   }
