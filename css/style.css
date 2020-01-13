@@ -289,7 +289,11 @@ nav ul.navmid li {
   overflow: hidden !important;
 }
 
-
+.startBild{
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
 
 /*--------------------Grössenanpassungen-----------------------*/
 
