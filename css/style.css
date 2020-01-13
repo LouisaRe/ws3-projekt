@@ -274,6 +274,8 @@ nav ul.navmid li {
   height: 130px;
 }
 
+
+
 /*Bilder alle gleich gross*/
 .card.horizontal .card-image img {
   border-radius: 2px 0 0 2px;
@@ -286,6 +288,8 @@ nav ul.navmid li {
 .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
   overflow: hidden !important;
 }
+
+
 
 /*--------------------Grössenanpassungen-----------------------*/
 
