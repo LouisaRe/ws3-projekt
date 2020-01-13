@@ -393,7 +393,7 @@ nav ul.navmid li {
 }
 .showhide  .material-icons {
   float: right;
-  margin-top: -0.3rem !important;
+  margin-top: 0 !important;
   font-size: 40px !important;
   color : white;
 }
@@ -414,8 +414,8 @@ nav ul.navmid li {
   }
 
     .showhide  .material-icons {
-        margin-top: -0.6rem;
-        margin-right: -0.4rem;
+        margin-top: -0.3rem !important;
+        margin-right: -0.3rem;
     }
 }
 
