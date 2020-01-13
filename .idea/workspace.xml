@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3cdd9ce-d27e-48ce-b7fd-efcc60760558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aktuelles.html" beforeDir="false" afterPath="$PROJECT_DIR$/aktuelles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost1/blogpost1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost2/blogpost2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Bild1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer_images/Bild1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Hans_Luette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer_images/Hans_Luette.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="187">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -100,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,13 +103,12 @@
             <path>
               <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="blogposts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,17 +165,17 @@
       <workItem from="1578653252143" duration="15964000" />
       <workItem from="1578691620829" duration="3039000" />
       <workItem from="1578750075359" duration="2764000" />
+      <workItem from="1578951799575" duration="1112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89474000" />
+    <option name="totallyTimeSpent" value="91276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1865" y="-1" width="1873" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.17870933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.18036404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50071126" side_tool="true" weight="0.19395973" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="187">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
