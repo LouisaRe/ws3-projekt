@@ -294,6 +294,9 @@ nav ul.navmid li {
   margin: auto;
   margin-top: 2rem;
 }
+.vollBild{
+  margin: auto;
+}
 
 /*--------------------Grössenanpassungen-----------------------*/
 
@@ -303,6 +306,7 @@ nav ul.navmid li {
   }
 }
 
+/*MITTEL*/
 @media only screen and (min-width : 600px)and (max-width: 992px){
   .aktuellesindex  .row .col.m4 {
     margin:10px;
@@ -311,8 +315,12 @@ nav ul.navmid li {
   .card.horizontal .card-image {
     width: 20%;
   }
+  .vollBild{
+    width: 100%;
+  }
 }
 
+/*GROSS*/
 @media only screen and (min-width : 992px) {
   .aktuellesindex  .row .col.l4 {
    /* changed to -20.01px so that it works on edge as well*/
@@ -322,8 +330,12 @@ nav ul.navmid li {
   .card.horizontal .card-image {
     width: 30%;
   }
+  .vollBild{
+    width: 80%;
+  }
 }
 
+/*KLEIN*/
 @media only screen and (max-width : 600px) {
   .card.horizontal .card-image {
     max-width: 40%;
@@ -345,6 +357,9 @@ nav ul.navmid li {
   }
   #aktuelles .row .col {
     padding: 0 !important;
+  }
+  .vollBild{
+    width: 100%;
   }
 }
 
