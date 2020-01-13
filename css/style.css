@@ -406,6 +406,10 @@ nav ul.navmid li {
   margin-bottom: 0.5rem;
 }
 
+#vorteil3  ul:not(.browser-default) > li, #vorteil5  ul:not(.browser-default) {
+  list-style-type: circle !important;
+}
+
 /*--------------------Grössenanpassungen-----------------------*/
 
 @media only screen and (max-width : 600px) {

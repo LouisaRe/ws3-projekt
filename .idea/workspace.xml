@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3cdd9ce-d27e-48ce-b7fd-efcc60760558" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Vorteile.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Vorteile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,26 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="102">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/Vorteile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="99" lean-forward="true" selection-start-line="70" selection-start-column="99" selection-end-line="70" selection-end-column="99" />
+            <state relative-caret-position="119">
+              <caret line="119" column="76" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="411" column="34" lean-forward="true" selection-start-line="411" selection-start-column="34" selection-end-line="411" selection-end-column="34" />
+            <state relative-caret-position="629">
+              <caret line="405" column="24" lean-forward="true" selection-start-line="405" selection-start-column="24" selection-end-line="405" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -97,10 +96,10 @@
         <option value="$PROJECT_DIR$/blogposts/blogpost3/blogpost3.html" />
         <option value="$PROJECT_DIR$/blogposts/blogpost4/blogpost4.html" />
         <option value="$PROJECT_DIR$/js/advantages.js" />
-        <option value="$PROJECT_DIR$/components/Vorteile.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/components/Vorteile.html" />
       </list>
     </option>
   </component>
@@ -193,12 +192,12 @@
       <workItem from="1578653252143" duration="15964000" />
       <workItem from="1578691620829" duration="3039000" />
       <workItem from="1578750075359" duration="2764000" />
-      <workItem from="1578951799575" duration="3704000" />
+      <workItem from="1578951799575" duration="4270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93868000" />
+    <option name="totallyTimeSpent" value="94434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1865" y="-1" width="1873" height="1096" extended-state="6" />
@@ -304,24 +303,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Vorteile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="99" lean-forward="true" selection-start-line="70" selection-start-column="99" selection-end-line="70" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="102">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="411" column="34" lean-forward="true" selection-start-line="411" selection-start-column="34" selection-end-line="411" selection-end-column="34" />
+        <state relative-caret-position="629">
+          <caret line="405" column="24" lean-forward="true" selection-start-line="405" selection-start-column="24" selection-end-line="405" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Vorteile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="119" column="76" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
         </state>
       </provider>
     </entry>
