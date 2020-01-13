@@ -374,6 +374,7 @@ nav ul.navmid li {
   -webkit-border-radius: 50px;
   border-radius: 50px;
   margin: 0 auto;
+  cursor: pointer;
 }
 .iconimg {
   max-width: 80px;
