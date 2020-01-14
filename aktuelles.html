@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:ui="http://java.sun.com/JSP/Page">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!--    TODO change title and mini icon-->
-    <title>Aktuelles</title>
+
+    <!--    title & icon-->
+    <title>pulsmin</title>
+    <link rel="icon" href="img/pulsmin_Icon.svg">
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -15,6 +17,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Load JavaScript-->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/loadComponents.js"></script>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -53,120 +59,130 @@
                                                                         id="backgroundmenu">menu</i></a>
     </div>
 </nav>
+
+<!--Aktuelles-->
 <div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
     <span>Aktuelles</span>
 </div>
-<div id="aktuelles">
-    <!--Blogpost1-->
-    <div class="container">
-        <div class="section">
-            <div class="row postbackground">
-                <div class="col s12 m5 l5"><img class="blogimageindex" src="img/aktuelles_images/InnoTrans2020.jpg">
+
+<div class="container row">
+
+<!------------------------------------ Blogeinträge ------------------------------------------------------------------->
+
+<!--Eintrag 1-->
+    <div class="col s12 m12">
+        <div class="card horizontal small">
+            <!--Bild-->
+            <div class="card-image">
+                <img src="img/aktuelles_images/InnoTrans2020.jpg">
+            </div>
+            <div class="card-stacked">
+                <!--Titel-->
+                <div class="card-content">
+                    <p>Messeauftritt InnoTrans 2020</p>
                 </div>
-                <div class="col s12 m7 l7">
-                    <p class="blogtitle">Messeautritt InnoTrans 2020</p>
-                    <a href="blogposts/blogpost1/blogpost1.html" class="weiterlesen">weiterlesen</a>
+                <!--Link-->
+                <div class="card-action">
+                    <a href="blogposts/blogpost1.html">Artikel lesen</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--Blogpost2-->
-    <div class="container">
-        <div class="section">
-            <div class="row postbackground">
-                <div class="col s12 m5 l5"><img class="blogimage"
-                                                src="img/aktuelles_images/Artikel_Fachzeitschrift.png"></div>
-                <div class="col s12 m7 l7">
-                    <p class="blogtitle">Artikel in der Fachzeitschrift MM MaschienenMarkt</p>
-                    <a href="blogposts/blogpost2/blogpost2.html" class="weiterlesen">weiterlesen</a>
+
+<!--Eintrag 2-->
+    <div class="col s12 m12">
+        <div class="card horizontal small">
+            <!--Bild-->
+            <div class="card-image">
+                <img src="img/aktuelles_images/Zug1.jpg">
+            </div>
+            <div class="card-stacked">
+                <!--Titel-->
+                <div class="card-content">
+                    <p>Artikel in der Fachzeitschrift MM Maschienen-Markt</p>
+                </div>
+                <!--Link-->
+                <div class="card-action">
+                    <a href="blogposts/blogpost2.html">Artikel lesen</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--Blogpost3-->
-    <div class="container">
-        <div class="section">
-            <div class="row postbackground">
-                <div class="col s12 m5 l5"><img class="blogimage"
-                                                src="img/aktuelles_images/Fischer_Erfinderpreis_2019.jpg"></div>
-                <div class="col s12 m7 l7">
-                    <p class="blogtitle">Teilnahme Artur Fischer Erfinderpreis Baden-Württemberg 2019</p>
-                    <a href="blogposts/blogpost3/blogpost3.html" class="weiterlesen">weiterlesen</a>
+<!--Eintrag 3-->
+    <div class="col s12 m12">
+        <div class="card horizontal small">
+            <!--Bild-->
+            <div class="card-image">
+                <img src="img/aktuelles_images/Pulsmin-kundenstimme-AxialSchraegscheibenKompressor_SB-1.png">
+            </div>
+            <div class="card-stacked">
+                <!--Titel-->
+                <div class="card-content">
+                    <p>Auch ein Zulieferer ist begeistert</p>
+                </div>
+                <!--Link-->
+                <div class="card-action">
+                    <a href="blogposts/blogpost3.html">Artikel lesen</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--Blogpost4-->
-    <div class="container">
-        <div class="section">
-            <div class="row postbackground">
-                <div class="col s12 m5 l5"><img class="blogimage" src="img/aktuelles_images/InnoTrans2018.jpg"></div>
-                <div class="col s12 m7 l7">
-                    <p class="blogtitle">Messeautritt InnoTrans 2018</p>
-                    <a href="blogposts/blogpost4/blogpost4.html" class="weiterlesen">weiterlesen</a>
+<!--Eintrag 4-->
+    <div class="col s12 m12">
+        <div class="card horizontal small">
+            <!--Bild-->
+            <div class="card-image">
+                <img src="img/aktuelles_images/Fischer_Erfinderpreis_2019.jpg">
+            </div>
+            <div class="card-stacked">
+                <!--Titel-->
+                <div class="card-content">
+                    <p>Erteilung des Patents</p>
+                </div>
+                <!--Link-->
+                <div class="card-action">
+                    <a href="blogposts/blogpost4.html">Artikel lesen</a>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/sample-1.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!------------------------------------- ENDE - Blogeinträge ----------------------------------------------------------->
+
 </div>
+
+
+
+
+<div id="test"></div>
+
+
 <!--Footer-->
-<footer class="page-footer blue1 blue1-text text-light2">
-    <div class="fontSizeStandartTitle center-align footerItem">
-        <span>Get In Touch</span>
-    </div>
-    <div class="valign-wrapper">
-        <div class="row container">
+<div class="footer"></div>
 
-            <!--Spalte 1-->
-            <div class="col l3 m4 s12 footerItem center-align">
-                <div class="footerItem">
-                    <i class="material-icons">room</i>
-                    <div class="center-align contactSpace">
-                        <span>pulsmin GmbH<br>Hans Luette<br>Seelhofstraße 24<br>D- 79539 Lörrach</span>
-                    </div>
-                </div>
-            </div>
-
-            <!--Spalte 2-->
-            <div class="col l3 m4 s12 footerItem center-align">
-                <!--Phone-->
-                <div class="footerItem">
-                    <i class="material-icons">phone</i>
-                    <div class="center-align contactSpace">
-                        + 49 (0) 7621 169976
-                    </div>
-                </div>
-            </div>
-
-            <!--Spalte 3-->
-            <div class="col l3 m4 s12 footerItem center-align">
-                <!--Email-->
-                <div class="footerItem">
-                    <i class="material-icons">mail</i>
-                    <div class="center-align contactSpace">
-                        info@pulsmin.com
-                    </div>
-                </div>
-            </div>
-
-            <!--Spalte 4-->
-            <div class="col l3 m12 s12 center-align">
-                <img src="img/Hans_Luette.jpg" alt="Hans Lütte" class="circle responsive-img size-100 z-depth-5">
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-copyright">
-        <div class="container center-align">
-            Made by <span
-                class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Reinger Lousia</span>
-        </div>
-    </div>
-
-</footer>
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>

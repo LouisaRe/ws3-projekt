@@ -6,11 +6,26 @@
  * Made By MaterializeCSS.com
  */
 
-/*----------------CSS für Footer------------------*/
+/*----------------Allgemeines------------------*/
 
 .fontSizeStandartTitle{
   font-size: 2rem;
+    font-weight: normal;
 }
+.blogDate{
+  text-align: right;
+}
+
+.blog{
+  margin-bottom: 3rem;
+}
+
+.blogTitleBox{
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .titleBox{ /*(Titelboxen)*/
   padding: 0.5rem;
   margin-top: 2rem;
@@ -96,6 +111,10 @@ footer.page-footer {
 }
 .blue1.light2{
   background-color: #edf5fa !important;
+}
+
+.blue2{
+  background-color: #82A2B7;
 }
 
 /*-----------------------------------------------------------*/
@@ -208,6 +227,11 @@ nav ul.navmid li {
 /*-------------------------------------------------------*/
 
 /*----------------CSS für Aktuelles------------------*/
+.zurueck{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .blogimageindex {
   width:100%;
   max-width: 600px;
@@ -246,24 +270,77 @@ nav ul.navmid li {
   margin-top: -10px;
 }
 
+/*Aktuelles alle Einträge gleich gross*/
+.card.horizontal.small {
+  height: 130px;
+}
+
+
+
+/*Bilder alle gleich gross*/
+.card.horizontal .card-image img {
+  border-radius: 2px 0 0 2px;
+  width: auto !important;
+  height: auto !important;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
+  overflow: hidden !important;
+}
+
+.startBild{
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.vollBild{
+  margin: auto;
+}
+
 /*--------------------Grössenanpassungen-----------------------*/
 
+@media only screen and (max-width: 600px){
+  .card.horizontal .card-image {
+    width: 0%;
+  }
+}
+
+/*MITTEL*/
 @media only screen and (min-width : 600px)and (max-width: 992px){
   .aktuellesindex  .row .col.m4 {
     margin:10px;
     width:calc(100% / 12*4 - 20.01px);
   }
+  .card.horizontal .card-image {
+    width: 20%;
+  }
+  .vollBild{
+    width: 100%;
+  }
 }
 
+/*GROSS*/
 @media only screen and (min-width : 992px) {
   .aktuellesindex  .row .col.l4 {
    /* changed to -20.01px so that it works on edge as well*/
     margin:10px;
     width:calc(100% / 12*4 - 20.01px);
   }
+  .card.horizontal .card-image {
+    width: 30%;
+  }
+  .vollBild{
+    width: 80%;
+  }
 }
 
+/*KLEIN*/
 @media only screen and (max-width : 600px) {
+  .card.horizontal .card-image {
+    max-width: 40%;
+  }
   .blogimage {
     margin-left: 0;
   }
@@ -282,22 +359,26 @@ nav ul.navmid li {
   #aktuelles .row .col {
     padding: 0 !important;
   }
+  .vollBild{
+    width: 100%;
+  }
 }
 
 /*-------------------------------------------------------*/
 
 /*----------------CSS für Vorteile------------------*/
-.circle {
-  width: 100px;
-  height: 100px;
+#vorteile_icons  .circle {
+  width: 80px;
+  height: 80px;
   background: #296692;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   margin: 0 auto;
+  cursor: pointer;
 }
 .iconimg {
-  max-width: 100px;
+  max-width: 80px;
   height: auto;
 }
 .resizeableimg {
@@ -308,21 +389,34 @@ nav ul.navmid li {
 #vorteile_header {
   background: white;
 }
-.showhidetitle {
-  background: #296692;
-  color: white;
-  padding: 13px;
-  font-size: 27px;
-}
 .showhide {
   display: none;
 }
 .showhide  .material-icons {
   float: right;
-  margin-top: -65px;
-  margin-right: 4px;
-  font-size: 50px !important;
+  margin-top: 0 !important;
+  font-size: 40px !important;
   color : white;
+}
+.vorteileSection{
+  padding-bottom: 0.1px;
+}
+.vorteileBox{
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/*Tabelle*/
+td {
+    padding: 6px 2px;
+    background-color: #F0F9FF;
+}
+th{
+    padding: 10px 10px;
+}
+table{
+    margin-bottom: 2rem;
 }
 
 /*--------------------Grössenanpassungen-----------------------*/
@@ -331,6 +425,11 @@ nav ul.navmid li {
   #vorteile_container  .row .col {
     padding: 0 !important;
   }
+
+    .showhide  .material-icons {
+        margin-top: -0.3rem !important;
+        margin-right: -0.3rem;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -353,7 +452,6 @@ nav ul.navmid li {
     max-width: 600px;
     width: 100%;
     height: auto;
-    margin-left: -16px;
 }
 .anwendungbeschreibung, .anwendung1 {
     margin-left: -10px;
@@ -384,13 +482,13 @@ h2{
 }
 .ueberschrift1 {
     background-color: #F0F9FF;
-    box-shadow: 0px 5px 3px 0px #C9D3DA;
+    box-shadow: 0 5px 3px 0 #C9D3DA;
     height: auto;
     margin-bottom: 20px;
 }
 .ueberschrift2 {
     background-color: #F0F9FF;
-    box-shadow: 0px 5px 3px 0px #C9D3DA;
+    box-shadow: 0 5px 3px 0 #C9D3DA;
     height: auto;
     margin-bottom: 20px;
 }
@@ -398,6 +496,15 @@ h2{
 /*-------------------------------------------------------*/
 
 /*----------------CSS für Alleinstellungsmerkmale------------------*/
+
 #alleinstellungsmerkmaletitle{
   font-weight: bold;
+}
+
+#ueberschrift  h2 {
+    color: black;
+}
+
+#technische_angaben  .vorteileBox {
+    margin-bottom: 0 !important;
 }
