@@ -461,6 +461,10 @@ table{
   margin-top: 10px;
 }
 
+.plus, .minus {
+  cursor: pointer;
+}
+
 /*--------------------Grössenanpassungen-----------------------*/
 
 @media only screen and (max-width : 600px) {

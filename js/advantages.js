@@ -136,7 +136,7 @@ function jumptoadvantage(elemid) {
 
     if(elemid === 'vorteil4'){
         if(scrolledY){
-            window.scroll(0, scrolledY + hH - wH -200);
+            window.scroll(0, scrolledY + hH - wH -100);
         }
     }
 
@@ -148,7 +148,7 @@ function jumptoadvantage(elemid) {
 
     if(elemid === 'vorteil6'){
         if(scrolledY){
-            window.scroll(0, scrolledY + hH - wH -200);
+            window.scroll(0, scrolledY + hH - wH);
         }
     }
 
