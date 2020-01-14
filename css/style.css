@@ -10,6 +10,7 @@
 
 .fontSizeStandartTitle{
   font-size: 2rem;
+    font-weight: normal;
 }
 .blogDate{
   text-align: right;
@@ -404,6 +405,18 @@ nav ul.navmid li {
   padding: 0.2rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+/*Tabelle*/
+td {
+    padding: 6px 2px;
+    background-color: #F0F9FF;
+}
+th{
+    padding: 10px 10px;
+}
+table{
+    margin-bottom: 2rem;
 }
 
 /*--------------------Grössenanpassungen-----------------------*/
