@@ -389,9 +389,11 @@ nav ul.navmid li {
 #vorteile_header {
   background: white;
 }
+/*
 .showhide {
   display: none;
 }
+*/
 .showhide  .material-icons {
   float: right;
   margin-top: 0 !important;
@@ -406,7 +408,6 @@ nav ul.navmid li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-
 /*Tabelle*/
 td {
     padding: 6px 2px;
@@ -427,13 +428,14 @@ table{
   }
 
     .showhide  .material-icons {
-        margin-top: -0.3rem !important;
-        margin-right: -0.3rem;
+        margin-top: 0 !important;
+        margin-right: 0;
+      font-size: 30px !important;
     }
 }
 
 @media only screen and (max-width: 992px) {
-  #vorteile_icons {
+  #vorteile_icons, .minus, #vorteil1, #vorteil2, #vorteil3 , #vorteil4, #vorteil5, #vorteil6 {
     display: none;
   }
   #vorteile_header {
@@ -442,6 +444,14 @@ table{
   .showhide {
     display: block;
   }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .plus, .minus {
+    display: none;
+  }
+
 }
 
 /*-------------------------------------------------------*/
