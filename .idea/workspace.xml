@@ -3,10 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f3cdd9ce-d27e-48ce-b7fd-efcc60760558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aktuelles.html" beforeDir="false" afterPath="$PROJECT_DIR$/aktuelles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Aktuelles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Alleinstellungsmerkmale.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Anwendungsgebiete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Kontakt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TechnischeAngaben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Vorteile.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/advantages.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/advantages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_beispiel.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,52 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aktuelles.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
-              <caret line="146" selection-start-line="146" selection-end-line="148" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="464" column="18" selection-start-line="464" selection-start-column="18" selection-end-line="464" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Aktuelles.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/advantages.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="27" selection-end-column="6" />
+            <state relative-caret-position="100">
+              <caret line="736" column="53" lean-forward="true" selection-start-line="736" selection-start-column="53" selection-end-line="736" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -81,9 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>30%</find>
-      <find>ca</find>
-      <find>anwendung1</find>
       <find>h6</find>
       <find>umweltschutz_header</find>
       <find>vorteile_header</find>
@@ -101,7 +64,6 @@
       <find>plus</find>
       <find>plusminus</find>
       <find>.showhide</find>
-      <find>vorteile</find>
       <find>material</find>
       <find>vorteile_container</find>
       <find>energieeff</find>
@@ -111,6 +73,10 @@
       <find>vorteil1</find>
       <find>nav</find>
       <find>circle</find>
+      <find>component</find>
+      <find>technische</find>
+      <find>anwendungsgebiete</find>
+      <find>vorteile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,18 +96,18 @@
         <option value="$PROJECT_DIR$/components/Vorteile.html" />
         <option value="$PROJECT_DIR$/components/Header.html" />
         <option value="$PROJECT_DIR$/aktuelles.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/advantages.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="147" />
-    <option name="y" value="212" />
-    <option name="width" value="1618" />
-    <option name="height" value="772" />
+    <option name="x" value="146" />
+    <option name="y" value="211" />
+    <option name="width" value="1619" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,11 +121,6 @@
             <path>
               <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ws3-projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ws3-projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,17 +183,18 @@
       <workItem from="1578691620829" duration="3039000" />
       <workItem from="1578750075359" duration="2764000" />
       <workItem from="1578951799575" duration="4270000" />
+      <workItem from="1579021990967" duration="2514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104689000" />
+    <option name="totallyTimeSpent" value="107846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="835" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.18255034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.21677852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50071126" side_tool="true" weight="0.19395973" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,15 +265,26 @@
     <entry file="file://$PROJECT_DIR$/img/vorteile_images/integration/abstellanlage.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Vorteile.html">
+    <entry file="file://$PROJECT_DIR$/aktuelles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="646">
+          <caret line="38" column="96" selection-start-line="38" selection-start-column="96" selection-end-line="38" selection-end-column="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Start.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7888">
+          <caret line="464" column="18" selection-start-line="464" selection-start-column="18" selection-end-line="464" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/advantages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Header.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -320,34 +293,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aktuelles.html">
+    <entry file="file://$PROJECT_DIR$/blogposts/blogpost1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Aktuelles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="146" selection-start-line="146" selection-end-line="148" selection-end-column="34" />
+        <state>
+          <caret selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Alleinstellungsmerkmale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Anwendungsgebiete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Kontakt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/TechnischeAngaben.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-end-line="192" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Vorteile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="59" column="18" lean-forward="true" selection-end-line="293" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="464" column="18" selection-start-line="464" selection-start-column="18" selection-end-line="464" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Aktuelles.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/advantages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
+        <state relative-caret-position="100">
+          <caret line="736" column="53" lean-forward="true" selection-start-line="736" selection-start-column="53" selection-end-line="736" selection-end-column="53" />
         </state>
       </provider>
     </entry>
