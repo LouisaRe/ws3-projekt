@@ -199,6 +199,7 @@ nav ul.navmid li {
 
 /*--------------------Grössenanpassungen-----------------------*/
 
+/*NICHT-GROSS*/
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -212,15 +213,41 @@ nav ul.navmid li {
   }
 }
 
+/*NUR MITTEL*/
+@media only screen and (min-width : 600px) and (max-width : 992px)  {
+  .val{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+/*KLEIN*/
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
 }
 
+/*GROSS*/
 @media only screen and (min-width: 992px){
   nav ul a{
     margin-top: -10px;
+  }
+  .val{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
