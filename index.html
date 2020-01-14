@@ -1,164 +1,761 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<!--    title & icon-->
+    <title>pulsmin</title>
+    <link rel="icon" href="img/pulsmin_Icon.svg">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Load JavaScript-->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 </head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+<body onresize="showAndhideContent(['vorteil1', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6', 'minus_icon1', 'minus_icon2', 'minus_icon3', 'minus_icon4', 'minus_icon5', 'minus_icon6', 'plus_icon2', 'plus_icon3', 'plus_icon4', 'plus_icon5', 'plus_icon6'], ['vorteil1', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['plus_icon1', 'plus_icon2', 'plus_icon3', 'plus_icon4', 'plus_icon5', 'plus_icon6'])"
+      onload="showAndhideContent(['vorteil1', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6', 'minus_icon1', 'minus_icon2', 'minus_icon3', 'minus_icon4', 'minus_icon5', 'minus_icon6', 'plus_icon2', 'plus_icon3', 'plus_icon4', 'plus_icon5', 'plus_icon6'], ['vorteil1', 'vorteil2', 'vorteil3', 'vorteil4', 'vorteil5', 'vorteil6'], ['plus_icon1', 'plus_icon2', 'plus_icon3', 'plus_icon4', 'plus_icon5', 'plus_icon6'])">
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+<!--Header-->
+<nav id="backgroundnav" role="navigation">
+    <a id="logo-container" href="#" class="brand-logo">pulsmin</a>
+    <div class="nav-wrapper">
+
+        <ul class="hide-on-med-and-down navmid">
+            <li><a class="logo" href="#">pulsmin</a></li>
+            <li><a href="#anwendungsgebietediv">Anwendungsgebiete</a></li>
+            <li><a href="#alleinstellungsmerkmalediv">Alleinstellungsmerkmale</a></li>
+            <li><a href="#vorteile_container">Vorteile</a></li>
+            <li><a href="#technischeangabendiv">Technische Angaben</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
+            <li><a href="#kontaktdiv">Kontakt</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a class="logo" href="#" onclick="location.reload()">pulsmin</a></li>
+            <li><a href="#anwendungsgebietediv" onclick="location.reload()">Anwendungsgebiete</a></li>
+            <li><a href="#alleinstellungsmerkmalediv" onclick="location.reload()">Alleinstellungsmerkmale</a></li>
+            <li><a href="#vorteile_container" onclick="location.reload()">Vorteile</a></li>
+            <li><a href="#technischeangabendiv" onclick="location.reload()">Technische Angaben</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
+            <li><a href="#kontaktdiv" onclick="location.reload()">Kontakt</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"
+                                                                        id="backgroundmenu">menu</i></a>
     </div>
-  </nav>
+</nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+<!--Startbildschirm-->
+<div class="container center-align">
+    <div class="center-align">
+        <div class="startBild">
+            <img src="img/start_images/Kompressor.jpg" alt="Kompressor" class="responsive-img">
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
+        <h1 class="center-align blue1-text">Betriebsstofffreier Axial-Schrägscheibenkompressor AKK800T</h1>
+        <h2 class="center-align blue1-text">EFFEKTIV - TROCKEN - ÖLFREI</h2>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
+</div>
 
+<!--Anwendungsgebiete-->
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
+<div class="anwendungsgebiete">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        <div class="section">
+
+            <!--Anwendungsgebiet 1-->
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="anwendungimage" src="img/anwendung_images/Train2.png">
+                </div>
+                <div class="col s12 m8 l8">
+                    <h6 class="anwendung1">Schienenfahrzeuge</h6>
+                    <p class="anwendungbeschreibung">
+                        Der AXK800T wurde speziell für den Einbau in S-, U-Bahnen und Lokomotiven konzipiert;
+                        niedrige Bauhöhe, geringes Gewicht und kleine Reaktionskräfte an den Auflagerpunkten.
+                        Für den Einbau Unterflur, auf dem Dach oder im Fahrzeuginneren genügt ein einfacher Tragrahmen bzw. Konsole. Durch die hohe Laufruhe und die geringe Druckluft- Ausschubpulsation ist der AXK800T auch ein idealer Ersatzkompressor bei Modernisierungen.
+                    </p>
+                </div>
+            </div>
 
 
+            <!--Anwendungsgebiet 2-->
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="anwendungimage" src="img/anwendung_images/trucks.jpg">
+                </div>
+                <div class="col s12 m8 l8">
+                    <h6 class="anwendung1">Elektro-, Hybrid-, Dieselbusse & Lastkraftwagen</h6>
+                    <p class="anwendungbeschreibung">
+                        In diesem Anwendungsfester werden die Kompressoren üblicherweise direkt vom Antriebsmotor des Fahrzeuges
+                        angetrieben was einen vermeidbaren Energieverbrauch generiert. Der AXK800T kann elektrisch oder hydraulisch
+                        betrieben im Motorraum integriert werden. Die ölfreie Verdichtung von Luft erfordert keine Mindestlaufzeit
+                        des Kompressors zur Vermeidung von Kondensatausfall im Ölsumpf. Der Kompressor läuft nur dann, wenn Druckluft benötigt wird.
+                    </p>
+                </div>
+            </div>
+
+            <!--Anwendungsgebiet 3-->
+
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="anwendungimage" src="img/anwendung_images/gas.jpg">
+                </div>
+                <div class="col s12 m8 l8">
+                    <h6 class="anwendung1">Gasverdichter</h6>
+                    <p class="anwendungbeschreibung">
+                        Der Kompressor sowie die gesamte Lagerung ist konstruktionsbedingt hermetisch dicht ausgeführt.
+                        Gasberührende Teile sind nicht aus Buntmetall oder ferritischen Werkstoffen.
+                        Die verdichteten Gase werden nicht durch Betriebsstoffe des Kompressors kontaminiert.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
+</div>
+
+<!--Alleinstellungsmerkmale-->
+<div id="alleinstellungsmerkmalediv"
+     class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+    <span>Alleinstellungsmerkmale</span>
+</div>
+<div class="section">
+    <div class="container">
+        <p>In Neufahrzeugen sowie im Modernisierungsmarkt werden heute zunehmend zwei Arten von ölfreien Kompressoren eingesetzt: </p>
+        <ul>
+            <li>
+                <i class="material-icons left">arrow_right_alt</i>
+                <p>Hubkolbenkompressoren mit den Nachteilen:
+                    großes Bauvolumen, hohes Gewicht, hohes Laufgeräusch, starke mechanische Schwingungen sowie hohe Gasausschubpulsationen.</p>
+            </li>
+            <li>
+                <i class="material-icons left">arrow_right_alt</i>
+                <p>Scrollkompressoren mit den Nachteilen: hohes Laufgeräusch, erhebliche Schmutzempfindlichkeit,
+                    hohe Schwingungen sowie die kurze Wartungsfristen.</p>
+            </li>
+        </ul>
+        <p>
+            Der AXK800T ist ein zweistufig arbeitender Axial-Schrägscheibenkompressor mit einem einzigartigen Verdichtungsprinzip zur Erzeugung von trockener Druckluft. Der Kompressor vereint die bewährte Trockenlauffähigkeit von Hubkolben- oder Scrollkompressoren mit der hohen Laufruhe von Schrauben- und Vielzellenkompressoren in einem innovativen Lösungskonzept.
+            Die Arbeitskolben arbeiten ohne Pleuel und parallel zur Antriebswelle. Der AXK800T besitzt dadurch keine störenden vertikalen bzw. radialen Eigenschwingungen. Verbunden mit einer Mehrzylindrigkeit bietet der AXK800T eine minimale Gasausschubpulsation zur Schonung nachgeschalteter Komponenten.
+        </p>
+    </div>
+</div>
+
+<!-- Vorteile-->
+<!--Vorteile-->
+<div id="vorteile_container">
+    <div id="vorteile_header">
+
+        <div class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+            <span id="titlerec">Vorteile</span>
+        </div>
+
+        <div id="vorteile_icons">
+            <div class="container">
+                <div class="vorteileSection">
+                    <div class="row">
+                        <div class="col s2">
+                            <div class="circle" id="umweltschutz_icon" onclick="jumptoadvantage('vorteile_container')">
+                                <i class="material-icons">local_florist</i>
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon2" onclick="jumptoadvantage('vorteil2')">
+                                <i class="material-icons left">power</i>
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon3" onclick="jumptoadvantage('vorteil3')">
+                                <i class="material-icons left">build</i>
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon4" onclick="jumptoadvantage('vorteil4')">
+                                <i class="material-icons left">directions_bus</i>
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon5" onclick="jumptoadvantage('vorteil5')">
+                                <i class="material-icons left">star</i>
+                            </div>
+                        </div>
+                        <div class="col s2">
+                            <div class="circle" id="vorteile_icon6" onclick="jumptoadvantage('vorteil6')">
+                                <i class="material-icons left">bar_chart</i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="vorteile_text">
+        <div class="container">
+
+            <!--            Vorteil 1-->
+            <div class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle left-align showhide"
+                 onclick='showfunction("vorteil1", "plus_icon1", "minus_icon1")'>
+                <i class="material-icons left">local_florist</i>
+                Umweltschonend
+                <i class="material-icons plus" id="plus_icon1">add</i>
+                <i class="material-icons minus" id="minus_icon1">remove</i>
+            </div>
+            <div id="vorteil1" class="vorteile">
+                <div class="row">
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschonend/umweltschutz_berge.png">
+                    </div>
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschonend/umweltschutz_baum.png">
+                    </div>
+                    <div class="col s12 l6">
+                        <p>
+                            Weltweit wird zur Schmierung und Kühlung von ölgeschmierten Kompressoren ein erheblicher Teil an Öl verbraucht.
+                            Ölkontaminiertes Kondensat aus der Druckluft wird oft noch auf das Dach oder in das Schienenbett geleitet und
+                            gelangt so in die Umwelt.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschonend/umweltschutz_erde.png">
+                    </div>
+                    <div class="col s12 l6">
+                        <p>
+                            Der AXK800T braucht kein Schmieröl.
+                            Lediglich die Lager besitzen eine kleine Dauerfettfüllung.
+                            Der Kompressor ist hermetisch dicht, so dass er auch in besonders geschützten Landschaften
+                            eingesetzt werden kann. Ökologisch ein Gewinn; durch den Entfall des kompletten Ölmanagements
+                            (Ölfüllung, Ölwechsel, Filterwechsel und Entsorgung) werden Ressourcen geschont.
+                        </p>
+                    </div>
+                    <div class="col s12 l3">
+                        <img class="resizeableimg" src="img/vorteile_images/umweltschonend/umweltschutz_lampe.png">
+                    </div>
+                </div>
+            </div>
+
+            <!--            Vorteil 2-->
+            <div class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle left-align showhide"
+                 onclick='showfunction("vorteil2", "plus_icon2", "minus_icon2")'>
+                <i class="material-icons left">power</i><span> Energieeffizient</span>
+                Energieeffizient
+                <i class="material-icons plus" id="plus_icon2">add</i>
+                <i class="material-icons minus" id="minus_icon2">remove</i>
+            </div>
+
+            <div id="vorteil2" class="vorteile">
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <p>
+                            Der AXK800T verdichtet effizient in zwei Stufen.
+                            Nach der Komprimierung in der Niederdruckstufe erfolgt eine intensive Zwischenkühlung der Luft.
+                            Differenzdruck gesteuerte Ventile sorgen dafür dass im Arbeitsraum kein unnötiger Überdruck herrscht.
+                            Die Antriebsenergie wird dadurch minimiert.
+                            Reibungsarme Kolbenbeschichtungen senken die Wärmeentwicklung und steigern weiterhin den Wirkungsgrad.
+                            Schrauben-, Vielzellen und Scrollkompressoren haben den Nachteil, dass die Druckluft über eine weggesteuerte Öffnung den
+                            Arbeitsraum verlassen muss. Der Wirkungsgrad ist daher nur bei einem definierten Enddruck optimal. Unabhängig vom Netzdruck
+                            wird im Arbeitsraum immer der eingebaute Druck erzeugt.
+                            Öleingespritzten Kompressoren benötigen zudem ein Teil der Antriebsenergie zur Aufrechterhaltung des Ölkreislaufes.
+                        </p>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <img id="energie_img" src="img/vorteile_images/energieeffizient/wind-farm.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!--            Vorteil 3-->
+            <div class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle left-align showhide"
+                 onclick='showfunction("vorteil3", "plus_icon3", "minus_icon3")'>
+                <i class="material-icons left">build</i>
+                Betriebs- und Wartungskosten
+                <i class="material-icons plus" id="plus_icon3">add</i>
+                <i class="material-icons minus" id="minus_icon3">remove</i>
+            </div>
+
+            <div id="vorteil3" class="vorteile">
+                <div class="row">
+                    <p>Ölfreie Drucklufterzeugung mit dem AXK800T heißt:</p>
+
+                    <ul>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Keine Bevorratung und Entsorgung von Schmieröl, Ölfilter, Luftentölelementen</p>
+                        </li>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Keine Sammlung, Aufbereitung  und Entsorgung von Druckluftkondensat</p>
+                        </li>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Keine Reinigungskosten durch Ölkontamination des Bordnetzes bei Filterversagen</p>
+                        </li>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Keine Reinigungskosten infolge Ölleckagen</p>
+                        </li>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Keine Abfall des Drucktaupunktes durch veröltes Lufttrocknungsgranulat</p>
+                        </li>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Erhöhung der Wartungsintervalle des Lufttrocknungsgranulates</p>
+                        </li>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Erhöhung der Fahrzeugnutzlast durch den Entfall von Kondensat- und Pufferbehältern</p>
+                        </li>
+                        <li>
+                            <i class="material-icons left green-text">done</i>
+                            <p>Minimaler Aufwand für die Wartung</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--            Vorteil 4-->
+
+            <div class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle left-align showhide"
+                 onclick='showfunction("vorteil4", "plus_icon4", "minus_icon4")'>
+                <i class="material-icons left">directions_bus</i> Integration in ein Fahrzeug
+                <i class="material-icons plus" id="plus_icon4">add</i>
+                <i class="material-icons minus" id="minus_icon4">remove</i>
+            </div>
+
+            <div id="vorteil4" class="vorteile">
+                <div class="row">
+                    <p>
+                        Die gewichtsoptimierte Kompressor-Motor-Einheit ist bis zum Druckluftanschluss am Druckluftnachkühler
+                        ohne Schläuche komplett verrohrt. Nachgeschaltete Komponenten wie Granulat-Trockner können direkt am Ausgang
+                        des Druckluftnachkühlers angeschlossen werden. Pulsationsdämpfer, Zwischenbehälter bzw. Filter zum Schutz
+                        des Trockners sind nicht erforderlich. Lüfter und Kühler sind vor Steinschlag wirksam geschützt.
+                        Zur Erhöhung der Nutzlast werden moderne Schienenfahrzeugen in Leichtbauweise gefertigt.
+                        Diese Fahrzeugstrukturen erfordern leichte, luft- und körperschallarme Kompressoren.
+                        Hohe Bauteilschwingungen können Schwingungsschäden und einen erhöhten Geräuscheintrag in den Wagenkasten führen.
+                        Die Maximierung des Nutzraumes führt weiterhin zu immer kleiner Einbauräumen.
+                        Ob Neufahrzeug oder Modernisierung, mit einem Ansaugvolumen von 850 Liter/min ist der AXK800T mit einer Einbauhöhe
+                        von 305mm und einem Kompressorgewicht von 42kg speziell für diese Anwendungen konzipiert.
+                    </p>
+                </div>
+                <div class="row">
+                    <img id="abstell" src="img/vorteile_images/integration/abstellanlage.jpg">
+                </div>
+            </div>
+
+            <!--            Vorteil 5-->
+            <div class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle left-align showhide"
+                 onclick='showfunction("vorteil5", "plus_icon5", "minus_icon5")'>
+                <i class="material-icons left">star</i>
+                Features
+                <i class="material-icons plus" id="plus_icon5">add</i>
+                <i class="material-icons minus" id="minus_icon5">remove</i>
+            </div>
+
+            <div id="vorteil5" class="vorteile">
+                <div class="row">
+                    <p>
+                        <ul>
+                            <li>
+                                <i class="material-icons left green-text">done</i>
+                    <p>Ölfreie, trockene Verdichtung</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Luftgekühlt</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Spritzwasserfest</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Niedrige Bauhöhe</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Niedrige End- und Bauteiltemperaturen durch zweistufig Verdichtung mit intensiver Zwischenkühlung</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Hohe Laufruhe durch runde Zylinderanordnung (keine Pleuel, keine Kurbelwelle)</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Minimale Vibrationen durch eine ausgewogene Kinematik vom Massen- und Gaskräften</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Kaltstart ohne Vorheizen; keine Mindestlaufzeiten</p>
+                    </li>
+                    <li><i class="material-icons left green-text">done</i>
+                        <p>Dauerlauffest</p>
+                    </li>
+                    <li><i class="material-icons left green-text">done</i>
+                        <p>Kein Bevorratung von Schmieröl und Ölfiltern</p>
+                    </li>
+                    <li><i class="material-icons left green-text">done</i>
+                        <p>Keine Entsorgung von ölkontaminiertem Druckluftkondensat</p>
+                    </li>
+                    <li><i class="material-icons left green-text">done</i>
+                        <p>Umweltfreundlich, Effizient und wirtschaftlich</p>
+                    </li>
+                    <li>
+                        <i class="material-icons left green-text">done</i>
+                        <p>Minimaler Wartungsaufwand</p>
+                    </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <!--            Vorteil 6-->
+            <div class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle left-align showhide"
+                 onclick='showfunction("vorteil6", "plus_icon6", "minus_icon6")'>
+                <i class="material-icons left">bar_chart</i>
+                Vergleich
+                <i class="material-icons plus" id="plus_icon6">add</i>
+                <i class="material-icons minus" id="minus_icon6">remove</i>
+            </div>
+
+            <div id="vorteil6" class="vorteile">
+                <div class="row">
+                    <p>
+                        Der AXK800T im Vergleich zu vorhandenen Kompressorbauarten
+                    <div class="vollBild">
+                        <img class="resizeableimg" src="img/vorteile_images/vergleich/vergleich_tabelle.jpg">
+                    </div>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="vorteile_container_end"></div>
+
+<!--Technische Angaben-->
+<div id="technischeangabendiv"
+     class="container blue1 blue1-text text-light2 titleBox fontSizeStandartTitle center-align">
+    <span>Technische Angaben</span>
+</div>
+
+
+<!--Carousel-->
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="carousel" id="images_carousel" data-indicators="true">
+                <a class="carousel-item" href="#one!"><img src="img/technisch_images/Explosionsdarstellung.PNG"></a>
+                <a class="carousel-item" href="#two!"><img src="img/technisch_images/Kompressor.PNG"></a>
+                <a class="carousel-item" href="#three!"><img src="img/technisch_images/Kompressor_Seite.PNG"></a>
+                <a class="carousel-item" href="#four!"><img src="img/technisch_images/Kompressor_Stufe.PNG"></a>
+                <a class="carousel-item" href="#five!"><img src="img/technisch_images/Kompressor_Unterseite.PNG"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#images_carousel').carousel();
+    });
+</script>
+<!--Tabelle mit techn Angaben-->
+<div id="technische_angaben">
+    <div class="section">
+        <div class="row">
+            <div class="container">
+                <table style="width:100%">
+                    <tr>
+                        <th colspan="2" class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle left-align">
+                            Kompressor
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gewicht Kompressor
+                        </td>
+                        <td>
+                            42 kg
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Gesamtgewicht mit Motor
+                        </td>
+                        <td>
+                            91 kg
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Ansaugvolumenstrom bei 10 barg
+                        </td>
+                        <td>
+                            850 Liter / min
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Betriebsüberdruck max.
+                        </td>
+                        <td>
+                            11 barg
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Drehzahl
+                        </td>
+                        <td>
+                            1465 l/min
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Betriebsart
+                        </td>
+                        <td>
+                            Start/ Stop max. 40 / Stunde
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Dauerbetrieb
+                        </td>
+                        <td>
+                            100%
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Rel. Luftfeuchte
+                        </td>
+                        <td>
+                            100%
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Umgebungstemperaturen min/ max
+                        </td>
+                        <td>
+                            -50 °C / +50 °C
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Höhenlage
+                        </td>
+                        <td>
+                            0 bis 1000 m
+                        </td>
+                    </tr>
+                </table>
+
+                <!--                Tabelle 2-->
+                <table style="width:100%">
+                    <tr>
+                        <th colspan="2" class="blue2 blue1-text text-light2 vorteileBox fontSizeStandartTitle">
+                            Elektromotor
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            E-Motor Baugrösse
+                        </td>
+                        <td>
+                            132 M
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Nennleistung
+                        </td>
+                        <td>
+                            7.5 kW
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Nennstrom
+                        </td>
+                        <td>
+                            14,7 A
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Einschaltstrom bei direkter Einschaltung
+                        </td>
+                        <td>
+                            44 A
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Spannung / Frequenz
+                        </td>
+                        <td>
+                            3x400 VAC / 50 Hz
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Einschaltung
+                        </td>
+                        <td>
+                            direkt
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Aktuelles-->
+<a href="aktuelles.html">
+    <div class="container amber lighten-1 amber-text text-lighten-5 titleBox fontSizeStandartTitle center-align">
+        <span>Aktuelles</span>
+    </div>
+</a>
+<div class="aktuellesindex">
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <!--Blogpost1-->
+                <div class="col s12 m4 l4">
+                    <img class="blogimageindex" src="img/aktuelles_images/InnoTrans2020.jpg">
+                    <p class="blogtitleindex">Messeautritt InnoTrans 2020</p>
+                    <a href="blogposts/blogpost1.html" class="weiterlesenindex">weiterlesen</a>
+                </div>
+                <!--Blogpost2-->
+                <div class="col s12 m4 l4">
+                    <img class="blogimageindex" src="img/aktuelles_images/Artikel_Fachzeitschrift.png">
+                    <p class="blogtitleindex">Artikel in der Fachzeitschrift MM MaschienenMarkt</p>
+                    <a href="blogposts/blogpost2.html" class="weiterlesenindex">weiterlesen</a>
+                </div>
+                <!--Blogpost3-->
+                <div class="col s12 m4 l4">
+                    <img class="blogimageindex" src="img/aktuelles_images/Fischer_Erfinderpreis_2019.jpg">
+                    <p class="blogtitleindex">Teilnahme Artur Fischer Erfinderpreis Baden-Württemberg 2019</p>
+                    <a href="blogposts/blogpost3.html" class="weiterlesenindex">weiterlesen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Kontakt-->
+<div id="kontaktdiv" class="blue1 light2">
+    <div class="container kontaktBox center-align">
+        <p>Haben Sie weitere Fragen zum Produkt?</p>
+
+        <a href="mailto: abc@example.com" class="btn amber waves-effect waves-light">
+            <span>Email</span>
+            <i class="material-icons right">send</i>
+        </a>
+
+    </div>
+</div>
+
+<!--Footer-->
+<footer class="page-footer blue1 blue1-text text-light2">
+    <div class="fontSizeStandartTitle center-align footerItem">
+        <span>Get In Touch</span>
+    </div>
+    <div class="valign-wrapper">
+        <div class="row container">
+
+            <!--Spalte 1-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <div class="footerItem">
+                    <i class="material-icons">room</i>
+                    <div class="center-align contactSpace">
+                        <span>pulsmin GmbH<br>Hans Luette<br>Seelhofstraße 24<br>D- 79539 Lörrach</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 2-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <!--Phone-->
+                <div class="footerItem">
+                    <i class="material-icons">phone</i>
+                    <div class="center-align contactSpace">
+                        + 49 (0) 7621 169976
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 3-->
+            <div class="col l3 m4 s12 footerItem center-align">
+                <!--Email-->
+                <div class="footerItem">
+                    <i class="material-icons">mail</i>
+                    <div class="center-align contactSpace">
+                        info@pulsmin.com
+                    </div>
+                </div>
+            </div>
+
+            <!--Spalte 4-->
+            <div class="col l3 m12 s12 center-align">
+                <img src="img/footer_images/Hans_Luette.jpg" alt="Hans Lütte"
+                     class="circle responsive-img size-100 z-depth-5">
+            </div>
+        </div>
+    </div>
+
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+        <div class="container center-align">
+            Made by <span
+                class="brown-text text-lighten-4"> Lagger Dominique, Tsypkaykina Anastasia & Reinger Lousia</span>
+        </div>
     </div>
-  </footer>
+</footer>
 
+<!--  Scripts-->
+<script type="text/javascript" src="js/advantages.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
+<!-- <script type="text/javascript" src="js/loadComponents.js"></script> -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
+</body>
 </html>

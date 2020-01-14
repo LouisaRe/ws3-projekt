@@ -6,45 +6,52 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+/*----------------Allgemeines------------------*/
+
+.fontSizeStandartTitle{
+  font-size: 2rem;
+    font-weight: normal;
+}
+.blogDate{
+  text-align: right;
 }
 
-p {
-  line-height: 2rem;
+.blog{
+  margin-bottom: 3rem;
 }
 
-.sidenav-trigger {
-  color: #26a69a;
+.blogTitleBox{
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+.titleBox{ /*(Titelboxen)*/
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+.cardBox{
+  padding: 0.5rem;
 }
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+.kontaktBox{
+  padding: 2rem;
 }
-
+.contactSpace{
+  padding: 2px;
+}
+.size-100{
+  height: 100px !important;
+}
+.footerItem{
+  margin-bottom: 24px;
+}
+h1{
+  font-size: 3rem;
+}
+.anwendungsgebiete  h6{
+    font-weight: bold;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -54,4 +61,505 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+/*--------------------Grössenanpassungen-----------------------*/
+
+/*SMALL (mobile)*/
+@media only screen and (max-width : 600px) {
+  .fontSizeStandartTitle{
+    font-size: 1.5rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .visible_m_l_xl{
+    display: none;
+  }
+}
+
+/*GRÖSSER ALS SMALL*/
+@media only screen and (min-width : 601px) {
+  .visible_s{
+    display: none;
+  }
+}
+
+/*--------------------------------------------------------------*/
+
+/*--------------------------Farben--------------------------*/
+.blue1{
+  background-color: #296692;
+}
+.blue1-text{
+  color: #296692;
+}
+.blue1.dark{
+  background-color: #23577d !important;
+}
+.blue1-text.text-dark{
+  color: #23577d !important;
+}
+.blue1-text.text-light{
+  color: #e1ebf2 !important;
+}
+.blue1.light{
+  background-color: #e1ebf2 !important;
+}
+.blue1-text.text-light2{
+  color: #edf5fa !important;
+}
+.blue1.light2{
+  background-color: #edf5fa !important;
+}
+
+.blue2{
+  background-color: #82A2B7;
+}
+
+/*-----------------------------------------------------------*/
+
+/*-----------------CSS von material-icons---------------*/
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-56 { font-size: 56px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für index-beispiel------------------*/
+
+
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS Navigation------------------*/
+
+nav ul a,
+nav {
+  color: white !important;
+}
+nav a.selected {
+  background: #245070;
+}
+.logo{
+  font-weight: bold !important;
+  font-size: 30px !important;
+  background: #296692 !important;
+}
+.brand-logo {
+  font-weight: bold !important;
+  font-size: 30px !important;
+  background: #296692 !important;
+  color: #296692 !important;
+}
+
+nav a:not(.selected):hover {
+  background: #245070;
+  color: white;
+}
+#backgroundnav, #backgroundmenu{
+  background: #296692;
+}
+p {
+  line-height: 2rem;
+}
+.sidenav {
+  background-color: #296692 !important;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+ul.navmid{
+  width: 1000px;
+  margin:0 auto;
+}
+nav ul.navmid li {
+  display: inline-block;
+  float: none;
+}
+
+/*--------------------Grössenanpassungen-----------------------*/
+
+/*NICHT-GROSS*/
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .brand-logo {
+    color: white !important;
+  }
+}
+
+/*NUR MITTEL*/
+@media only screen and (min-width : 600px) and (max-width : 992px)  {
+  .val{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+/*KLEIN*/
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+/*GROSS*/
+@media only screen and (min-width: 992px){
+  nav ul a{
+    margin-top: -10px;
+  }
+  .val{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für Aktuelles------------------*/
+.zurueck{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blogimageindex {
+  width:100%;
+  max-width: 600px;
+  height: auto;
+}
+.blogtitleindex {
+  margin-left: 10px;
+  padding: 10px;
+}
+.weiterlesenindex {
+  margin-left: 10px;
+  padding: 10px;
+  text-decoration: underline !important;
+}
+.aktuellesindex  .row .col {
+  padding-bottom: 20px !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  background: #F0F9FF;
+  /* Copied from materialize.css .z-depth-1*/
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.blogimage {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-left: -10px;
+}
+.weiterlesen {
+  text-decoration: underline !important;
+}
+.blogtitle {
+  margin-top: -10px;
+}
+
+/*Aktuelles alle Einträge gleich gross*/
+.card.horizontal.small {
+  height: 130px;
+}
+
+
+
+/*Bilder alle gleich gross*/
+.card.horizontal .card-image img {
+  border-radius: 2px 0 0 2px;
+  width: auto !important;
+  height: auto !important;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
+  overflow: hidden !important;
+}
+
+.startBild{
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.vollBild{
+  margin: auto;
+}
+
+/*--------------------Grössenanpassungen-----------------------*/
+
+@media only screen and (max-width: 600px){
+  .card.horizontal .card-image {
+    width: 0%;
+  }
+}
+
+/*MITTEL*/
+@media only screen and (min-width : 600px)and (max-width: 992px){
+  .aktuellesindex  .row .col.m4 {
+    margin:10px;
+    width:calc(100% / 12*4 - 20.01px);
+  }
+  .card.horizontal .card-image {
+    width: 20%;
+  }
+  .vollBild{
+    width: 100%;
+  }
+}
+
+/*GROSS*/
+@media only screen and (min-width : 992px) {
+  .aktuellesindex  .row .col.l4 {
+   /* changed to -20.01px so that it works on edge as well*/
+    margin:10px;
+    width:calc(100% / 12*4 - 20.01px);
+  }
+  .card.horizontal .card-image {
+    width: 30%;
+  }
+  .vollBild{
+    width: 80%;
+  }
+}
+
+/*KLEIN*/
+@media only screen and (max-width : 600px) {
+  .card.horizontal .card-image {
+    max-width: 40%;
+  }
+  .blogimage {
+    margin-left: 0;
+  }
+  .blogtitle, .weiterlesen {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+  .postbackground {
+    background: #F0F9FF;
+    padding-bottom: 20px;
+    /* Copied from materialize.css .z-depth-1*/
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  #aktuelles .row .col {
+    padding: 0 !important;
+  }
+  .vollBild{
+    width: 100%;
+  }
+}
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für Vorteile------------------*/
+#vorteile_icons  .circle {
+  width: 80px;
+  height: 80px;
+  background: #296692;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.iconimg {
+  max-width: 80px;
+  height: auto;
+}
+.resizeableimg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+#vorteile_header {
+  background: white;
+}
+/*
+.showhide {
+  display: none;
+}
+*/
+.showhide  .material-icons {
+  float: right;
+  margin-top: 0 !important;
+  font-size: 40px !important;
+  color : white;
+}
+.vorteileSection{
+  padding-bottom: 0.1px;
+}
+.vorteileBox{
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+/*Tabelle*/
+td {
+    padding: 6px 2px;
+    background-color: #F0F9FF;
+}
+th{
+    padding: 10px 10px;
+}
+table{
+    margin-bottom: 2rem;
+}
+
+#vorteile_icons .material-icons{
+  font-size: 50px;
+  color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#energie_img, #abstell {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.plus, .minus {
+  cursor: pointer;
+}
+
+/*--------------------Grössenanpassungen-----------------------*/
+
+@media only screen and (max-width : 600px) {
+  #vorteile_container  .row .col {
+    padding: 0 !important;
+  }
+
+    .showhide  .material-icons {
+        margin-top: 0 !important;
+        margin-right: 0;
+      font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+  #vorteile_icons, .minus, #vorteil1, #vorteil2, #vorteil3 , #vorteil4, #vorteil5, #vorteil6 {
+    display: none;
+  }
+  #vorteile_header {
+    top: auto !important;
+  }
+  .showhide {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .plus, .minus {
+    display: none !important;
+  }
+
+}
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für Anwendungsgebiete------------------*/
+
+.anwendungimage {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+.anwendungbeschreibung, .anwendung1 {
+    margin-left: -10px;
+    margin-top: -4px;
+}
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für technische Angaben------------------*/
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.ueberschrift{
+    background-color: #296692;    
+    height: auto;
+}
+h2{
+    margin: 1.3rem 0 1.8rem 0;
+    font-size: 18px;    
+    color: white;
+}
+.carousel{
+    height:300px;
+}
+.ueberschrift1 {
+    background-color: #F0F9FF;
+    box-shadow: 0 5px 3px 0 #C9D3DA;
+    height: auto;
+    margin-bottom: 20px;
+}
+.ueberschrift2 {
+    background-color: #F0F9FF;
+    box-shadow: 0 5px 3px 0 #C9D3DA;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/*-------------------------------------------------------*/
+
+/*----------------CSS für Alleinstellungsmerkmale------------------*/
+
+#alleinstellungsmerkmaletitle{
+  font-weight: bold;
+}
+
+#ueberschrift  h2 {
+    color: black;
+}
+
+#technische_angaben  .vorteileBox {
+    margin-bottom: 0 !important;
 }
