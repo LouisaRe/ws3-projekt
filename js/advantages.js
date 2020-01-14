@@ -30,7 +30,7 @@ window.onscroll = function () {
         hT5 = elem5.offsetTop,
         hT6 = elem6.offsetTop;
 
-    if (wS > (hT + hH - wH)) {
+    if (wS > (hT + hH - wH + vorteile_header_height)) {
         elem1.style.position = "sticky";
         elem1.style.top = "0";
         icon1.style.background = lightcolor;
@@ -49,7 +49,7 @@ window.onscroll = function () {
     }
 
 
-    if (wS > (hT2 + hH - wH - vorteile_header_height)) {
+    if (wS > (hT2 + hH - wH + vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = lightcolor;
         icon3.style.background = darkcolor;
@@ -60,7 +60,7 @@ window.onscroll = function () {
 
 
 
-    if (wS > (hT3 + hH - wH - vorteile_header_height)) {
+    if (wS > (hT3 + hH - wH + vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = lightcolor;
@@ -71,7 +71,7 @@ window.onscroll = function () {
 
 
 
-    if (wS > (hT4 + hH - wH - vorteile_header_height)) {
+    if (wS > (hT4 + hH - wH + vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = darkcolor;
@@ -82,7 +82,7 @@ window.onscroll = function () {
 
 
 
-    if (wS > (hT5 + hH - wH - vorteile_header_height)) {
+    if (wS > (hT5 + hH - wH + vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = darkcolor;
@@ -93,7 +93,7 @@ window.onscroll = function () {
 
 
 
-    if (wS > (hT6 + hH - wH - vorteile_header_height)) {
+    if (wS > (hT6 + hH - wH + vorteile_header_height)) {
         icon1.style.background = darkcolor;
         icon2.style.background = darkcolor;
         icon3.style.background = darkcolor;
@@ -110,25 +110,51 @@ if (wS > (hTend + hH - wH)) {
 
 function jumptoadvantage(elemid) {
     var elem = document.getElementById(elemid);
-    var corr = 300;
     elem.scrollIntoView(true);
     var hH = getAbsoluteHeight(elem),
         wH = window.innerHeight;
     var scrolledY = window.scrollY;
 
     if (elemid === 'vorteile_container') {
-        if(scrolledY){
-            window.scroll(0, scrolledY -100);
-        }
-    } else {
-
-
-
-        if(scrolledY){
-            window.scroll(0, scrolledY + hH - wH - corr);
+        if (scrolledY) {
+            window.scroll(0, scrolledY - 100);
         }
     }
+
+    if(elemid === 'vorteil2'){
+        document.getElementById(elemid).scrollIntoView();
+            if(scrolledY){
+                window.scroll(0, scrolledY + hH - wH + 400);
+            }
+    }
+
+    if(elemid === 'vorteil3'){
+        if(scrolledY){
+            window.scroll(0, scrolledY + hH - wH + 50);
+        }
+    }
+
+    if(elemid === 'vorteil4'){
+        if(scrolledY){
+            window.scroll(0, scrolledY + hH - wH + 150);
+        }
+    }
+
+    if(elemid === 'vorteil5'){
+        if(scrolledY){
+            window.scroll(0, scrolledY + hH - wH + 150);
+        }
+    }
+
+    if(elemid === 'vorteil6'){
+        if(scrolledY){
+            window.scroll(0, scrolledY + hH - wH + 150);
+        }
+    }
+
+
 }
+
 
 function getAbsoluteHeight(el) {
     el = (typeof el === 'string') ? document.querySelector(el) : el;
