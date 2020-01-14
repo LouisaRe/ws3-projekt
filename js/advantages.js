@@ -124,31 +124,31 @@ function jumptoadvantage(elemid) {
     if(elemid === 'vorteil2'){
         document.getElementById(elemid).scrollIntoView();
             if(scrolledY){
-                window.scroll(0, scrolledY + hH - wH + 400);
+                window.scroll(0, scrolledY + hH - wH + 450);
             }
     }
 
     if(elemid === 'vorteil3'){
         if(scrolledY){
-            window.scroll(0, scrolledY + hH - wH + 50);
+            window.scroll(0, scrolledY + hH - wH);
         }
     }
 
     if(elemid === 'vorteil4'){
         if(scrolledY){
-            window.scroll(0, scrolledY + hH - wH + 150);
+            window.scroll(0, scrolledY + hH - wH -200);
         }
     }
 
     if(elemid === 'vorteil5'){
         if(scrolledY){
-            window.scroll(0, scrolledY + hH - wH + 150);
+            window.scroll(0, scrolledY + hH - wH -120);
         }
     }
 
     if(elemid === 'vorteil6'){
         if(scrolledY){
-            window.scroll(0, scrolledY + hH - wH + 150);
+            window.scroll(0, scrolledY + hH - wH -200);
         }
     }
 
